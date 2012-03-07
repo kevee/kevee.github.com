@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>kevee.org</title>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="/css/kevee.css" />
+	</head>
+	<body class="default">
+		
+		<div id="above">
+			<div id="map"></div>
+			<div id="map-overlay"></div>
+			<div class="opposite-day"></div>
+			<div class="opposite-day"></div>
+			<div class="opposite-day"></div>
+			<div class="wrapper">
+			<h1><a href="/"><span class="name">kevee</span><span class="amp">.org</span></a></h1>
+			
+			</div>
+			<div class="tmi">
+				<a href="office_temp"></a>
+				<div class="label">My office temp<br/>
+				<a href="http://energy.csumb.edu">more energy data</a></div>
+				<div class="value">&deg;</div>
+			</div>
+		</div>
+		<div id="below">
+			{{content}}
+		</div>
+		<div id="footerlandia">
+		</div>
+		
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/kevee.js"></script>
+	</body>
+</html>

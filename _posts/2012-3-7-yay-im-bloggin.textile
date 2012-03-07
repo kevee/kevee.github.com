@@ -1,0 +1,12 @@
+---
+layout: post
+title: Yay, I'm bloggin' on the GitHub
+---
+
+h1. {{ page.title }}
+
+p(meta). Mar 7 2012
+
+I've been thinkin' lately that I need to share more with the community, but I'll only do that if I have the least amount of friction as possible between me and writing. Since I always have "an awesome text editor":http://www.sublimetext.com/ open, and GitHub has been my constant companion these many years, I figured on using "Jekyll":https://github.com/mojombo/jekyll, and have been impressed so far.
+
+I would suggest replacing our Drupal-based "Charlotte" CMS at Cal State Monterey Bay with Jekyll, but I think our users would revolt.
