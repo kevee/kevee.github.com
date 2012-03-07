@@ -3,7 +3,7 @@ layout: post
 title: Yay, I'm bloggin' on the GitHub
 ---
 
-h1. {{ page.title }}
+h2. {{ page.title }}
 
 p(meta). Mar 7 2012
 

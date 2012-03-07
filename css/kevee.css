@@ -61,8 +61,26 @@ body {
 }
 #below {
   margin: 430px auto 0 auto;
-  width: 980px;
+  width: 940px;
+  padding: 20px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
 }
+
+ul.posts {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+ul.posts li em {
+  color: #222;
+  font-size: 80%;
+}
+
 #below h2 {
   font-size: 2em;
 }
