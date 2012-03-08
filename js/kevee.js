@@ -6,7 +6,7 @@ var kevee = {
 	init : function() {
 		kevee.moveOppositeCircles();
 		kevee.loadMap();
-		kevin.loadTmi();
+		kevee.loadTmi();
 	},
 	
 	moveOppositeCircles : function() {
