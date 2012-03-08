@@ -6,6 +6,12 @@ body {
 a {
   color: #358;
 }
+
+.element-invisible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
 #above {
   overflow: hidden;
 }
@@ -31,6 +37,11 @@ a {
   -moz-border-radius: 200px;
   -webkit-border-radius: 200px;
 }
+
+#above {
+  position: relative;
+}
+
 #above .wrapper {
   width: 400px;
   height: 380px;
@@ -68,7 +79,7 @@ a {
   position: absolute; 
 }
 
-#above .link a img { 
+#above .link a { 
   text-decoration: none; 
 }
 
@@ -76,6 +87,12 @@ a {
   width: 100px; 
   height: 78px;
   background: url('/img/twitter.png') no-repeat 0px 0px;
+  z-index: 200;
+}
+#above .link.twitter a {
+  width: 100px; 
+  height: 78px;
+  display: block;
 }
 
 #above .link.twitter:hover {
