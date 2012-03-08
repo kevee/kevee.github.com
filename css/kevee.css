@@ -63,6 +63,25 @@ a {
 #above .wrapper p a, #above .wrapper p a:hover, #above .wrapper p a:visited {
   color: #3e7291;
 }
+
+#above .link { 
+  position: absolute; 
+}
+
+#above .link a img { 
+  text-decoration: none; 
+}
+
+#above .link.twitter {
+  width: 100px; 
+  height: 78px;
+  background: url('/img/twitter.png') no-repeat 0px 0px;
+}
+
+#above .link.twitter:hover {
+  background-position: 0px -78px;
+}
+
 #below {
   background: #fff;
   margin: 430px auto 0 auto;
