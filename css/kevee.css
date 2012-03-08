@@ -60,6 +60,7 @@ body {
   color: #3e7291;
 }
 #below {
+  background: #fff;
   margin: 430px auto 0 auto;
   width: 940px;
   padding: 20px;
@@ -169,7 +170,7 @@ h4,
   font-family: 'Arvo', arial, serif;
   font-weight: normal;
 }
-h1 {
+#above h1 {
   color: #000;
   font-size: 3em;
   background-color: #6eb1bf;
@@ -185,6 +186,18 @@ h1 {
 }
 h1 .amp {
   color: #fff;
+}
+
+.default #above {
+  height: 150px;
+}
+
+.default #below {
+  margin-top: 200px;
+}
+
+.default #above h1 {
+  top: 20px;
 }
 
 .item { width: 290px; background: rgba(255,255,255,0.2); border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; float: left; margin: 0 15px 15px 0; padding: 8px;}
