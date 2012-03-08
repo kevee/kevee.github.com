@@ -35,8 +35,9 @@ var kevee = {
 	},
 
 	loadTmi : function() {
-		CSUMBEnergy.apiKey = 'slfjlkvsd097jlkfjlknf03fn3insvkld';
-		$('.tmi .value').html(CSUMBEnergy.getPointData('43office') + '&deg;');
+		var $script = $('script').attr('src', 'http://energy.csumb.edu/services/getLatestValueJSON?key=slfjlkvsd097jlkfjlknf03fn3insvkld&point=43office');
+		$('body').append($script);
+		$('.tmi .value').html(energyData + '&deg;');
 	}
 	
 };
