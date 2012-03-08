@@ -2,6 +2,10 @@ body {
   background: #79c3d2;
   font-family: "Helvetica Neue", Aria, Helvetica, sans-serif;
 }
+
+a {
+  color: #358;
+}
 #above {
   overflow: hidden;
 }
@@ -169,6 +173,22 @@ h4,
 .tmi {
   font-family: 'Arvo', arial, serif;
   font-weight: normal;
+}
+
+h3 { 
+  font-size: 120%;
+}
+
+h2 {
+  font-size: 140%;
+}
+
+h4 {
+  font-size: 110%;
+}
+
+h5 {
+  font-size: 100%;
 }
 #above h1 {
   color: #000;
