@@ -38,10 +38,6 @@ a {
   -webkit-border-radius: 200px;
 }
 
-#above {
-  position: relative;
-}
-
 #above .wrapper {
   width: 400px;
   height: 380px;
@@ -86,6 +82,8 @@ a {
 #above .link.twitter {
   width: 100px; 
   height: 78px;
+  top: 15px;
+  right: 50px;
   background: url('/img/twitter.png') no-repeat 0px 0px;
   z-index: 200;
 }
