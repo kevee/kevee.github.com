@@ -6,7 +6,7 @@ var kevee = {
 	init : function() {
 		kevee.moveOppositeCircles();
 		kevee.loadMap();
-		kevee.loadFeeds();
+		kevin.loadTmi();
 	},
 	
 	moveOppositeCircles : function() {
@@ -33,6 +33,11 @@ var kevee = {
 		var multiplier = (Math.random() > .5) ? 1 : -1;
 		return val + ((Math.random() * 5) * multiplier);
 	},
+
+	loadTmi : function() {
+		CSUMBEnergy.apiKey = 'slfjlkvsd097jlkfjlknf03fn3insvkld';
+		$('.tmi .value').html(CSUMBEnergy.getPointData('43office') + '&deg;');
+	}
 	
 };
 
