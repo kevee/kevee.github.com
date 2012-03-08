@@ -37,7 +37,9 @@ var kevee = {
 	loadTmi : function() {
 		var $script = $('script').attr('src', 'http://energy.csumb.edu/services/getLatestValueJSON?key=slfjlkvsd097jlkfjlknf03fn3insvkld&point=43office');
 		$('body').append($script);
-		$('.tmi .value').html(CSUMBEnergy.energyData + '&deg;');
+		if(typeof CSUMBEnergy == 'object') {
+  		$('.tmi .value').html(CSUMBEnergy.energyData + '&deg;');
+    }
 	}
 	
 };
