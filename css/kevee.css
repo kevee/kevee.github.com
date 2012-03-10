@@ -268,4 +268,4 @@ h1 .name {
 
 .front .sidebar { width: 200px; float: right; }
   .front .sidebar ul { list-style-type: none; margin: 0px; }
-.front .content { margin-right: 230px; }
+.front .content { margin-right: 230px; min-height: 300px;}
