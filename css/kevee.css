@@ -265,3 +265,7 @@ h1 .name {
 .item .label { color: #fff; }
 .item-link { color: #000; text-decoration: none; }
 .wide { width: 612px; }
+
+.front .sidebar { width: 200px; float: right; }
+  .front .sidebar ul { list-style-type: none; margin: 0px; }
+.front .content { margin-right: 230px; }
