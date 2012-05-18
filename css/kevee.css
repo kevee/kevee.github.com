@@ -279,3 +279,4 @@ h1 .section {
 .resume .title { font-style: italic;}
 
 ul.nobullet { list-style-type: none; }
+ul.gallery li { float: left;}
