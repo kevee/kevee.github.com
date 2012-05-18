@@ -1,0 +1,13 @@
+---
+layout: post
+title: Dia de los Muertos Altera for Don Lorenzo
+category : art
+---
+
+h2. {{ page.title }}
+
+p(meta). cut paper & oatmeal
+
+This was an installation collaboration with Amalia Mesa-Baines in the San Jose museum of Art.
+
+<img src="/img/art/donlorenzo_big.jpg" alt=""/>
