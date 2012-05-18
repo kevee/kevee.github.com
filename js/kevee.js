@@ -4,6 +4,10 @@ var kevee = {
 				  lon : -98.014526 },
 	
 	init : function() {
+		$(".fancybox").fancybox({
+			openEffect	: 'none',
+			closeEffect	: 'none'
+		});
 		kevee.moveOppositeCircles();
 		kevee.loadMap();
 		kevee.loadTmi();
@@ -40,5 +44,4 @@ var kevee = {
 	}
 	
 };
-
 $(document).ready(kevee.init);
