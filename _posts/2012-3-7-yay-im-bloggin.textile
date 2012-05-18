@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Yay, I'm bloggin' on the GitHub
+category : blog
 ---
 
 h2. {{ page.title }}

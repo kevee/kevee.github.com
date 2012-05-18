@@ -1,0 +1,11 @@
+---
+layout: post
+title: Seventy Six
+category : art
+---
+
+h2. {{ page.title }}
+
+p(meta). cut paper & oatmeal
+
+<img src="/img/art/76.jpg" alt=""/>
