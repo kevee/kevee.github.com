@@ -249,6 +249,10 @@ h1 .name {
   color: #000;
 }
 
+h1 .section {
+  color: #b4d7df;
+}
+
 .default #above {
   height: 150px;
 }
