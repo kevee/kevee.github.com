@@ -2,6 +2,7 @@
 layout: post
 title: Dia de los Muertos Altera for Don Lorenzo
 category : art
+picture : /img/art/donlorenzo_big.jpg
 ---
 
 h2. {{ page.title }}
