@@ -152,6 +152,9 @@ a.feed {
   clear: both;
   height: 30px;
 }
+.clear {
+  clear: both;
+}
 h3 {
   font-size: 2em;
 }
@@ -279,4 +282,4 @@ h1 .section {
 .resume .title { font-style: italic;}
 
 ul.nobullet { list-style-type: none; }
-ul.gallery li { float: left;}
+ul.gallery li { float: left; margin: 10px 10px 0 0;}
