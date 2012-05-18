@@ -269,3 +269,9 @@ h1 .name {
 .front .sidebar { width: 200px; float: right; }
   .front .sidebar ul { list-style-type: none; margin: 0px; }
 .front .content { margin-right: 230px; min-height: 300px;}
+
+.resume .employer { font-weight: bold; margin: 0 15px 0 0;}
+.resume .time { margin: 0 15px 0 0 ;}
+.resume .title { font-style: italic;}
+
+ul.nobullet { list-style-type: none; }
