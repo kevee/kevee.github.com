@@ -283,3 +283,8 @@ h1 .section {
 
 ul.nobullet { list-style-type: none; }
 ul.gallery li { float: left; margin: 10px 10px 0 0;}
+
+#post img { padding: 2px; border: 1px solid #444; }
+
+img.right { float: right; margin: 10px 0 10px 10px; }
+img.left { float: left; margin: 10px 10px 10px 0; }
