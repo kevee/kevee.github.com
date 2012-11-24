@@ -3,45 +3,28 @@
 	<head>
 		<title>{{ page.title }}</title>
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-		<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/css/kevee.css" />
 	</head>
 	<body class="front">
-		
-		<div id="above">
-			<div id="map"></div>
-			<div id="map-overlay">
-			</div>
-			<div class="opposite-day"></div>
-			<div class="opposite-day"></div>
-			<div class="opposite-day"></div>
-			
-			<div class="wrapper">
-			<h1><span class="name">kevee</span><span class="amp">.org</span></h1>
-			<div class="intro">
-				<p>Hi, I'm <strong><a href="/resume.html">Kevin Miller</a></strong>, a web developer for <a href="http://csumb.edu">Cal State Monterey Bay</a>, knitter, and <a href="/art">paper-cutter</a>.
-				<p>I started coding with printer command software for Windows 3.1 in junior high, then moved to <a href="http://replay.waybackmachine.org/19990418075331/http://www.atas.k12.ca.us/">workin' the web</a> in 1998, and now I work on Drupal, accessibility, and making products for higher education.
-				</p>
+		<div class="container font-label">
+  		<h1>Kevin Miller</h1>
+  		<nav>
+  		  <ul>
+  		    <li>web dev</li>
+  		    <li>artist</li>
+  		    <li>knitter</li>
+  		  </ul>
+  		</nav>
+		</div>
+		<div class="container">
+      		{{ content }}
 
-				</div>
-			</div>
-			<div class="tmi">
-				<a href="office_temp"></a>
-				<div class="label">My office temp<br/>
-				<a href="http://energy.csumb.edu">more energy data</a></div>
-				<div class="value">&deg;</div>
-			</div>
 		</div>
-		<div id="below">
-			{{ content }}
-		</div>
-		<a href="/atom.xml">RSS Feed</a>
-		<div id="footerlandia">
-		</div>
-		
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript" src="http://energy.csumb.edu/js/api.js"></script>
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="/css/bootstrap/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="/js/kevee.js"></script>
 	</body>
 </html>
