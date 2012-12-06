@@ -63,3 +63,7 @@ nav li {
 .font-label h1 {
   font-size: 60px;
 }
+
+.thumbnails {
+  list-style-type: none;
+}
