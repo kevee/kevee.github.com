@@ -1,0 +1,24 @@
+.editor {
+  position: absolute;
+  width: 100%;
+  font-size: 300%;
+  border-bottom: 3px solid #f0f0f0;
+}
+
+#preview {
+  padding: 10px;
+}
+
+.editor.half {
+  width: 50%;
+}
+
+
+.editor.half {
+  width: 50%;
+}
+
+#run {
+  float: right;
+  margin: 15px 15px 0 0;
+}
