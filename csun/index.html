@@ -34,7 +34,7 @@
 
 				<section>
 					<h1>Baking accessibility into the CMS</h1>
-					<h3>...using QUAIL</h3>
+					<h3>...using <abbr title="Quail Accessibility Information Library">QUAIL</abbr></h3>
 					<p>
 						<small>By <a href="http://kevee.org">Kevin miller</a> / <a href="http://twitter.com/kevinmiyar">@kevinmiyar</a></small>
 					</p>
@@ -57,8 +57,30 @@
 				    <li>Large website (45,000 pages across 150 departments)</li>
 				    <li>Lots of authors (350)</li>
 				    <li>Small staff (3)</li>
-				    <li>One website (Drupal FTW)</li>
+				    <li>One website (Drupal <abbr title="For the Win">#FTW</abbr>)</li>
 				  </ul>
+				</section>
+				<section>
+				  <h2>Who are you?</h2>
+				  <ul>
+				    <li>Education folks?</li>
+				    <li><abbr title="California State University">CSU</abbr> System folks? (We aren't going to talk about <em>that</em> CMS)</li>
+				    <li>Business people? (Business people are not "folks")</li>
+				    <li>Accessibility Software vendors? (sorry in advance...)</li>
+				  </ul>
+				</section>
+				<section>
+				  <h2>Who are you (round two)?</h2>
+				  <ul>
+				    <li>Techies?</li>
+				    <li>Uber techies?</li>
+				    <li>Management?</li>
+				    <li>Content authors?</li>
+				  </ul>
+				</section>
+				<section>
+				  <h1>TL;DR</h1>
+				  <p>Go to <a href="http://quailjs.org">quailjs.org</a>, make awesome happen.</p>
 				</section>
 				<section>
   				<section>
@@ -191,7 +213,31 @@ $('#content').quail({ guideline : 'wcag2a',
 				<section>
 				  <section>
 				    <h2>Some examples</h2>
+				    <p><a href="examples">View the examples</a></p>
 				  </section>
+				</section>
+				
+				<section>
+				  <h2>More than just content</h2>
+				  <ul>
+				    <li>phantom.js &amp; Node.js can do this on the server side (build a scanner).</li>
+				    <li>Building a11y into the software development process (proposal done for Drupal, other projects).</li>
+				    <li>Content quality.</li>
+				  </ul>
+				</section>
+				
+				<section>
+				  <h2>The future</h2>
+				  <ul>
+				    <li>2.0 release <em>this week</em>.</li>
+				    <li>require.js integration (for autoloading)</li>
+				    <li>tests geared towards applications, not just content (read: ARIA)</li>
+				    <li>Covey - allows users to build-their-own installation of QUAIL if their project can't support maintaining lists of tests.</li>
+				  </ul>
+				</section>
+				<section>
+				  <h2>Slides at</h2>
+				  <h1>kevee.org/csun</h1>
 				</section>
 			</div>
 
@@ -199,7 +245,6 @@ $('#content').quail({ guideline : 'wcag2a',
 
 		<script src="js/reveal/lib/js/head.min.js"></script>
 		<script src="js/reveal/js/reveal.min.js"></script>
-		<script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js"></script>
 		<script>
   			Reveal.initialize({
   				controls: false,
