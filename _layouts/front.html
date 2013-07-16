@@ -3,29 +3,23 @@
 	<head>
 		<title>{{ page.title }}</title>
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="/js/fancybox/source/jquery.fancybox.css">
-		<link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/css/kevee.css" />
 	</head>
 	<body class="front">
-		<div class="container font-label">
-  		<h1>Kevin Miller</h1>
-  		<nav>
-  		  <ul>
-  		    <li>web dev</li>
-  		    <li><a href="/art">artist</a></li>
-  		    <li>knitter</li>
-  		  </ul>
-  		</nav>
-		</div>
 		<div class="container">
       		{{ content }}
-
 		</div>
-  	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-  	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script type="text/javascript" src="/css/bootstrap/js/bootstrap.min.js"></script>
+		<div class="footer">
+			<div class="container">
+				<a href="https://twitter.com/kevinmiyar" class="icon"><img src="/assets/img/twitter.png" alt="me on twitter"></a>
+				<a href="https://github.com/kevee" class="icon"><img src="/assets/img/github.png" alt="me on github"></a>
+				<a href="https://drupal.org/user/125882" class="icon"><img src="/assets/img/drupal.png" alt="me on drupal"></a>
+			</div>
+		</div>
+		<script type="text/javascript" src="/lib/jquery.js"></script>
+		<script type="text/javascript" src="/lib/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/lib/jquery.sticky.js"></script>
 		<script type="text/javascript" src="/js/kevee.js"></script>
 	</body>
 </html>
