@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Twined mittens"
+tags:
+ - yarn
+---
+<img class="popover-image" src="/assets/photos/knittin-mittin.png" alt="Knit mittens"/>
+
+Twined knit mittens

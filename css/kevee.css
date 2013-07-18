@@ -61,3 +61,11 @@
 .icon:hover img {
   opacity: 1;
 }
+
+.popover-image {
+  width: 200px;
+}
+
+.popover-hidden-content {
+  display: none;
+}
