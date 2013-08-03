@@ -4,6 +4,7 @@ title: kevee.org
 tag: blog
 rsstext: rss
 yarn : yarn
+writing : writing
 ---
 <div class="me">
 	<img src="https://d233eq3e3p3cv0.cloudfront.net/fit/c/256/256/0*GR1vBSa0KxSNDm0g.jpeg" alt="">
@@ -24,7 +25,7 @@ yarn : yarn
 </div>
 <div class="row extra-space">
 	
-	<div class="span12 rss">
+	<div class="span6 rss">
 		<h2 class="span6">What I've been doing</h2>
 		{% for post in site.posts %}
 		  {% for tag in post.tags %}
@@ -33,6 +34,23 @@ yarn : yarn
 						{% if post.source != "github" %}
 							<h3><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h3>
 							<p>{{ post.date | date_to_string }}</p>
+						{% endif %}
+						<p>{{ post.content }}</p>
+					</article>
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+	</div>
+	<div class="span6 rss">
+		<h2 class="span6">What I've been writing</h2>
+		{% for post in site.posts %}
+		  {% for tag in post.tags %}
+		  	{% if tag == page.writing %}
+					<article>
+						{% if post.link %}
+							<h3><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h3>
+						{% else %}
+							<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 						{% endif %}
 						<p>{{ post.content }}</p>
 					</article>
