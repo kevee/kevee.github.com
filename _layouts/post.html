@@ -14,7 +14,7 @@
 				<h1><a href="/">kevee</a> <small> (kevin miller)</small></h1>
 			</div>
 			<div class="page-header">
-				<h2>{{ page.title }}</h2>
+				<h2>{{ page.title }}{% if page.subtitle %}<br/><small>{{ page.subtitle }}</small>{% endif %}</h2>
 			</div>
       		{{ content }}
 		</div>
