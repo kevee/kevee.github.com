@@ -31,6 +31,9 @@
 						<section>
 							<h2>What is an "alt" attribute?</h2>
 						</section>
+						<section>
+							<h2>Reports are divorced from the editing experience.</h2>
+						</section>
 					</section>
 					<section>
 						<section>
@@ -1571,6 +1574,14 @@ $('#content').quail({ guideline : 'wcag2a',
 						</pre>
 						</section>
 						<section>
+							<h1>Severity</h1>
+							<ul>
+								<li>Severe</li>
+								<li>Moderate</li>
+								<li>Suggestion</li>
+							</ul>
+						</section>
+						<section>
 							<h2>Guidelines</h2>
 							<p>WCAG 2.0 A/AA/AAA, WCAG 1.0 A/AA/AA, Section 508</p>
 							<p>Most tests align with <a target="_blank" href="https://github.com/kevee/quail/wiki/Test-Guideline-alignment">one or more guidelines</a></p>
@@ -1580,7 +1591,11 @@ $('#content').quail({ guideline : 'wcag2a',
 						<section>
 							<h1>Accessibility module</h1>
 							<p>http://drupal.org/project/accessibility</p>
-							<p><strong>Dude, it's in development.</strong></p>
+							<p><strong>GUYS, it's in development.</strong></p>
+						</section>
+						<section>
+							<h2>Big thanks</h2>
+							<h3>jessebeach for helping get the ball rolling about accessibility and helping get the module name.</h3>
 						</section>
 						<section>
 							<h2>What we get</h2>
@@ -1607,6 +1622,62 @@ $('#content').quail({ guideline : 'wcag2a',
 							<h2>Accessibility Themer</h2>
 						</section>
 					</section>
+					<section>
+						<h1>How you can help</h1>
+						<h2>File issues! Test! Break things!</h2>
+					</section>
+					<section>
+						<section>
+							<h1>API</h1>
+						</section>
+						<section>
+							<h1>JavaScript</h1>
+							<pre><code>
+
+Drupal.accessibility.checkElement($('#my-id'), function(event) {
+  Drupal.accessibility.attachHint(event);
+});
+	</code></pre>
+						</section>
+						<section>
+							<h1>PHP</h1>
+							<p>When accessibility is loaded, add your own code.</p>
+							<pre><code>
+function hook_accessibility_load() {
+	drupal_add_js(drupal_get_path('module', 'my_module') . '/my_module.js');
+}
+	</code></pre>
+						</section>
+						<section>
+							<p>Defining your own tests</p>
+							<pre><code>
+unction hook_accessibility_tests($get_translation) {
+	return array('my_test' => array(
+			'title' => t('My accessibility test'),
+			'subject' => t('Make sure you have accessible content'),
+			'description' => t('Accessibility is a legal obligation and a moral responsibility.'),
+			'severity' => ACCESSIBILITY_TEST_SEVERE,
+			'type' => 'selector',
+			'selector' => '.myclass',
+			'js' => array(drupal_get_path('module', 'my_module') .'/my_module.js',
+				),
+			'css' => array(drupal_get_path('module', 'my_module') .'/my_module.css',
+				)
+			),
+		);
+}
+	</code></pre>
+						</section>
+						<section>
+							<p>Tests need default titles and descriptions that are translatable.</p>
+<pre><code>
+function hook_accessibility_get_test_translation($test) {
+	return array('title' => t('Title of my test'),
+							 'body' => t('Description of my test'),
+							 );
+}
+</pre></code>
+						</section>
 					<section>
 						<h1>The future of quail</h1>
 						<p>Cheney, Covey.io, Nodejs support</p>
