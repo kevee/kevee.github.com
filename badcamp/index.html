@@ -9,17 +9,43 @@
 			<div class="reveal">
 				<div class="slides">
 					<section>
-						<img src="baking.svg" alt="" style="border: none; background: transparent; box-shadow: none;">
+						<img src="img/baking.svg" alt="A jar of accessibility sprinkled on a cake." style="border: none; background: transparent; box-shadow: none;">
 					</section>
 					<section>
 						<h1>Bake accessibility into your project</h1>
 						<p>Kevin Miller - kevee on d.o -  @kevinmiyar<br/>Cal State Monterey Bay
 						</p>
-						<p>Slides at kevee.org/badcamp</p>
+						<p>Slides at <a href="kevee.org/badcamp">kevee.org/badcamp</a></p>
 					</section>
 					<section>
 						<section>
 							<h1>What is accessibility?</h1>
+						</section>
+						<section>
+							<h2>Screen readers</h2>
+							<ul>
+								<li>Images have appropriate descriptions</li>
+								<li>Document is well structured</li>
+								<li>Links make sense out of context</li>
+								<li>Identifiers that are visual only have text equivalents</li>
+							</ul>
+						</section>
+						<section>
+							<h2>Wide range of visual acuity</h2>
+							<p>According to the WHO, 39 million people are legally blind, but 246 million have visual impairment that can't be solved by glasses alone.</p>
+						</section>
+						<section>
+							<h2>Color blindness, low contrast</h2>
+							<img src="img/colorblindness.png" alt="The drupal report page uses green or yellow to denote information, but color blind users cant see it.">
+						</section>
+						<section>
+							<h2>Deafness, hard-of-hearing, second language</h2>
+						</section>
+						<section>
+							<h2>Motor skills, hover state, timed interactions</h2>
+						</section>
+						<section>
+							<h2>Cognative, epilepsy, &amp; dyslexia</h2>
 						</section>
 						<section>
 							<h2>Resources</h2>
@@ -1689,6 +1715,7 @@ function hook_accessibility_get_test_translation($test) {
 }
 </pre></code>
 						</section>
+					</section>
 					<section>
 						<h1>The future of quail</h1>
 						<p>Cheney, Covey.io, Nodejs support</p>
