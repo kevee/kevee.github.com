@@ -1,0 +1,8 @@
+---
+layout: post
+title: BADCamp 2013 accessibility presentation
+link: https://archive.org/details/BakeAccessibilityIntoYourProject
+tags:
+ - writing
+---
+A presentation on baking accessibility into your Drupal site. <a href="/badcamp">Slides are also available</a>.
