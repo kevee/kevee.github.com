@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Quail Accessibility Camp Presentation</title>
+		<link rel="stylesheet" href="../reveal/css/reveal.min.css"/>
+		<link rel="stylesheet" href="../reveal/css/theme/beige.css" id="theme">
+		<link rel="stylesheet" href="../reveal/lib/css/zenburn.css">
+		<body>
+			<div class="reveal">
+				<div class="slides">
+					<section>
+						<h1>Accessibility Made Easier with quail</h1>
+						<p>Kevin Miller - Cal State Monterey Bay - @kevinmiyar
+						</p>
+					</section>
+					<section>
+						<h1>quailjs.org</h1>
+					</section>
+					<section>
+						<section>
+							<h2>The problem</h2>
+							<p>...or why Quail is needed for the modern web.</p>
+						</section>
+						<section>
+							<h3>Temporal shift</h3>
+							<p>The time between people publishing content that has an accessibility problem and when a report is received is a period when some users are sad.</p>
+						</section>
+						<section>
+							<h3>Reporting <abbr title="is not equal to">!=</abbr> Action</h3>
+							<p>Institutions like higher ed, or even corporations with different departments, find it difficult to conjole content authors.</p>
+						</section>
+						<section>
+							<h3>Lack of context</h3>
+							<p>Rich editing environments deserve immediate feedback .</p>
+						</section>
+					</section>
+					<section>
+						<h2>Overview</h2>
+						<ul>
+							<li>A jQuery plugin - JavaScript</li>
+							<li>Comes with pre-defined guidelines WCAG 2.0 and Section 508.</li>
+							<li>Tests are easily defined, and Quail comes with over 200 tests.</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Example code</h2>
+						<pre><code data-trim>
+$('#content').quail({ jsonPath : 'dist/resources',
+                  guideline : 'wcag',
+                  testFailed : function(event) { ... },
+                  complete : function(event) { ... },
+                });
+							</pre></code>
+					</section>
+					<section>
+						<h2>Defining tests</h2>
+						<p>From <code>src/resources/tests.yml</code></p>
+						<pre><code data-trim>
+imgHasAlt:
+  type: "selector"
+  testability: 1
+  title:
+    en: "Image elements must have an \"alt\" attribute"
+  description:
+    en: "All <code>img</code> elements must have an alt attribute"
+  guidelines:
+    508:
+      - "a"
+    wcag:
+      1.1.1:
+        techniques:
+          - "F65"
+          - "H37"
+  tags:
+    - "image"
+    - "content"
+  options:
+    selector: "img"
+    filter: ":not(img[alt])"
+							</pre></code>
+					</section>
+					<section>
+						<h2>Example use cases</h2>
+						<ul>
+							<li><a href="">Text editor integration</a></li>
+							<li><a href="">Giving users contextual feedback</a></li>
+							<li><a href="">Reporting</a></li>
+							<li><a href="http://github.com/quailjs/grunt-quail">Continuous Integration</a></li>
+						</ul>
+					</section>
+			</div>
+		<script src="../reveal/lib/js/head.min.js"></script>
+		<script src="../reveal/js/reveal.js"></script>
+		<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '../reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+		</body>
+
+</html>
