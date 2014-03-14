@@ -16,11 +16,24 @@
 					</section>
 					<section>
 						<h1>quailjs.org</h1>
+						<aside class="notes">
+							<ul>
+								<li>Read the website out loud</li>
+								<li>List of accessibility tests</li>
+								<li>List of guidelines</li>
+							</ul>
+						</aside>
 					</section>
 					<section>
 						<section>
 							<h2>The problem</h2>
 							<p>...or why Quail is needed for the modern web.</p>
+							<aside class="notes">
+								<ul>
+									<li>I work at a college campus at the time of starting work on quail we were a team of two.</li>
+									<li>Why hasn't anyone thought of this?</li>
+								</ul>
+							</aside>
 						</section>
 						<section>
 							<h3>Temporal shift</h3>
@@ -52,6 +65,11 @@ $('#content').quail({ jsonPath : 'dist/resources',
                   complete : function(event) { ... },
                 });
 							</pre></code>
+							<aside class="notes">
+								<ul>
+									<li>This can also be run on the server using PhantomJS.</li>
+								</ul>
+							</aside>
 					</section>
 					<section>
 						<h2>Defining tests</h2>
@@ -132,7 +150,8 @@ imgHasAlt:
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
 					{ src: '../reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: '../reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: '../reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
 		</script>
