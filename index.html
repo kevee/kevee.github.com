@@ -6,13 +6,12 @@ rsstext: rss
 yarn : yarn
 writing : writing
 ---
-<div class="me">
+<div class="me" role="banner">
 	<img src="https://d233eq3e3p3cv0.cloudfront.net/fit/c/256/256/0*GR1vBSa0KxSNDm0g.jpeg" alt="">
 	<h1>kevee <small> (kevin miller)</small></h1>
 </div>
-<blockquote class="largequote">I build things using <a href="https://drupal.org/user/125882">Drupal</a>, <a href="/art">paper</a>, <a href="#" class="popover-link" data-contentid="popover-yarn">yarn</a>, tofu, and <a href="">JavaScript</a> that are used to <a href="http://quailjs.org" target="_blank">improve web accessibility</a>, keep hands warm, and help keep <a href="http://csumb.edu/drupal">higher education relevant</a>.
-</blockquote>
-<div id="popover-yarn" class="popover-hidden-content">
+<blockquote class="largequote" role="banner">I build things using <a href="https://drupal.org/user/125882">Drupal</a>, <a href="/art">paper</a>, <a href="#" class="popover-link" data-contentid="popover-yarn">yarn</a>, tofu, and <a href="">JavaScript</a> that are used to <a href="http://quailjs.org" target="_blank">improve web accessibility</a>, keep hands warm, and help keep <a href="http://csumb.edu/drupal">higher education relevant</a>.
+	<div id="popover-yarn" class="popover-hidden-content">
 	<div>
 		{% for post in site.posts %}
 	  {% for tag in post.tags %}
@@ -23,9 +22,11 @@ writing : writing
 	{% endfor %}
 	</div>
 </div>
+</blockquote>
+
 <div class="row extra-space">
 	
-	<div class="span6 rss">
+	<div class="span6 rss" role="complimentary">
 		<h2 class="span6">What I've been doing</h2>
 		{% for post in site.posts limit:20%}
 		  {% for tag in post.tags %}
@@ -41,7 +42,7 @@ writing : writing
 			{% endfor %}
 		{% endfor %}
 	</div>
-	<div class="span6 rss">
+	<div class="span6 rss" role="article">
 		<h2 class="span6">What I've been writing</h2>
 		{% for post in site.posts limit:1000 %}
 		  {% for tag in post.tags %}
