@@ -1,7 +1,9 @@
 (function($) {
 
 	$(document).ready(function() {
-		$('.row h2').sticky();
+		if($('.row h2').length) {
+			$('.row h2').sticky();
+		}
 		$('a.popover-link').popover({
 			html : true,
 			content : function() {
