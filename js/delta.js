@@ -15,7 +15,7 @@
     $(window).resize();
     var mapOptions = {
         center: [38.049685, -121.658286],
-        zoom: 12,
+        zoom: 11,
         scrollWheelZoom: false,
         touchZoom: false
     };
@@ -31,7 +31,7 @@
     $.getJSON('mans-harsh-lines.json', function(data) {
       var layer = L.geoJson(data, {
           style : {
-            weight : 5,
+            weight : 7,
             color : '#ff0000',
             opacity: 0.8
           }
@@ -49,40 +49,36 @@
         }
       })
     });
+
+    $('.route-directions').hide();
+    var dayClick = function(event) {
+      $('.route-directions').hide();
+      $($(this).attr('href')).show();
+      event.preventDefault();
+      $.each(routeLayers, function() {
+        this.setStyle({ color : '#5777c3'});
+      });
+      routeLayers[$(this).data('route')].setStyle({ color : '#ae3131'});
+    };
     var routeMap = $('.map.route').get(0);
-    mapOptions.zoom = 10;
+    mapOptions.zoom = 9;
     var routeMap = L.map(routeMap, mapOptions);
     L.tileLayer.provider('MapBox.kevee.hkm8c4c1').addTo(routeMap);
     var routeLayers = {};
-    $('.route-link').on('click', function(event) {
-      $('.route-directions').hide();
-      event.preventDefault();
-      if(typeof routeLayers[$(this).data('route')] === 'undefined') {
-        $(this).parent('li').addClass('active');
-        $.getJSON($(this).data('route') + '.json', function(data) {
-          routeLayers[$(this).data('route')] = L.geoJson(data, {
-              onEachFeature: addPopup,
-              style : {
-                weight: 5,
-                color: '#5777c3',
-                opacity: 0.8
-              }
-          });
-          routeMap.addLayer(routeLayers[$(this).data('route')]);
+    $('.route-link').each(function() {
+      var $link = $(this);
+      $.getJSON($link.data('route') + '.json', function(data) {
+        routeLayers[$link.data('route')] = L.geoJson(data, {
+            onEachFeature: addPopup,
+            style : {
+              weight: 5,
+              color: '#5777c3',
+              opacity: 0.8
+            }
         });
-      }
-      else {
-        if($(this).parents('.active').length) {
-          routeMap.removeLayer(routeLayers[$(this).data('route')]);
-          $(this).parents('li').removeClass('active');
-        }
-        else {
-          routeMap.addLayer(routeLayers[$(this).data('route')]);
-          $('#' + $(this).data('route')).show();
-          $(this).parents('li').addClass('active');
-        }
-      }
+        routeMap.addLayer(routeLayers[$link.data('route')]);
+        $link.on('click', dayClick);
+      });
     });
-    $('.route-link').first().trigger('click');
   });
 })(jQuery);
