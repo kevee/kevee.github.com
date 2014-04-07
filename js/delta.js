@@ -14,7 +14,7 @@
 
     $(window).resize();
     var mapOptions = {
-        center: [38.049685, -121.658286],
+        center: [38.15, -121.658286],
         zoom: 11,
         scrollWheelZoom: false,
         touchZoom: false
@@ -61,7 +61,7 @@
       routeLayers[$(this).data('route')].setStyle({ color : '#ae3131'});
     };
     var routeMap = $('.map.route').get(0);
-    mapOptions.zoom = 9;
+    mapOptions.zoom = 10;
     var routeMap = L.map(routeMap, mapOptions);
     L.tileLayer.provider('MapBox.kevee.hkm8c4c1').addTo(routeMap);
     var routeLayers = {};
