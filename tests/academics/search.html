@@ -33,7 +33,7 @@ $('form').on('submit', function(event) {
     $('#stuff').hide();
     $('#majors > li').each(function() {
         if($(this).text().toLowerCase().search(keywords.toLowerCase()) > -1) {
-            $('#results > ul').append($(this));   
+            $('#results > ul').append($(this).clone());   
         }
     });
     $('#results, .results').show();
