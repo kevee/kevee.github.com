@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,6 +28,7 @@ $(window).load(function(){
 //Academics with revealed synonyms
 $('form').on('submit', function(event) {
     var keywords = $('#search').val();
+    $('#results li').remove();
     event.preventDefault();
     $('#stuff').hide();
     $('#majors > li').each(function() {
