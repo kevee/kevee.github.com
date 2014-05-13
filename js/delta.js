@@ -80,5 +80,6 @@
         $link.on('click', dayClick);
       });
     });
+    $('[data-route=day1]').trigger('click');
   });
 })(jQuery);
