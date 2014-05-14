@@ -24,16 +24,16 @@
         labels : swellLabels,
         datasets : [
           {
-            fillColor : "rgba(151,187,205,0.5)",
-            strokeColor : "rgba(151,187,205,1)",
-            pointColor : "rgba(151,187,205,1)",
+            fillColor : "rgba(70, 191, 189, 0.5)",
+            strokeColor : "rgba(70, 191, 189, 1)",
+            pointColor : "rgba(70, 191, 189, 1)",
             pointStrokeColor : "#fff",
             data : swellData.hs
           },
           {
-            fillColor : "rgba(220,220,220,0.5)",
-      			strokeColor : "rgba(220,220,220,1)",
-      			pointColor : "rgba(220,220,220,1)",
+            fillColor : "rgba(253, 180, 92,0.5)",
+      			strokeColor : "rgba(253, 180, 92, 1)",
+      			pointColor : "rgba(253, 180, 92, 1)",
             pointStrokeColor : "#fff",
             data : swellData.tp
           }
@@ -63,8 +63,8 @@
       	labels : tideLabels,
       	datasets : [
       		{
-      			fillColor : "rgba(151,187,205,0.5)",
-      			strokeColor : "rgba(151,187,205,1)",
+      			fillColor : "rgba(243, 62, 111, 0.5)",
+      			strokeColor : "rgba(243, 62, 111, 1)",
       			pointColor : "rgba(151,187,205,1)",
       			pointStrokeColor : "#fff",
       			data : tideData
@@ -95,9 +95,9 @@
         labels : windLabels,
         datasets : [
           {
-            fillColor : "rgba(151,187,205,0.5)",
-            strokeColor : "rgba(151,187,205,1)",
-            pointColor : "rgba(151,187,205,1)",
+            fillColor : "rgba(245, 134, 30,0.5)",
+            strokeColor : "rgba(245, 134, 30,1)",
+            pointColor : "rgba(245, 134, 30,1)",
             pointStrokeColor : "#fff",
             data : windData
           }
@@ -113,9 +113,53 @@
     });
     $.getJSON('http://www.spitcast.com/api/county/spots/monterey/', function(data) {
       $.each(data, function(index, spot) {
-        console.log(spot);
-        $('#spots').append('<h2>' + spot.spot_name + '</h2>');
-        $.getJSON('http://api.spitcast.com/api/spot/forecast/' + spot.spot_id, function(data) {
+        $.getJSON('http://webprojects.csumb.edu/pub/surf.php?spot=' + spot.spot_id, function(data) {
+          $('#spots').append('<h2>' + spot.spot_name + '</h2>');
+          var $deets = $('<a href="#" class="btn btn-primary pull-right slider" data-spot="' + spot.spot_id + '">Details</a>');
+          $('#spots').append($deets);
+          $deets.on('click', function(event) {
+            event.preventDefault();
+            $('#deets-' + $(this).data('spot')).slideToggle();
+          });
+          var spotData = [];
+          var spotLabels = [];
+          var $list = $('<ul class="unstyled" id="deets-' + spot.spot_id + '">');
+          $.each(data, function(index, spot) {
+            if(spot.hour.toLowerCase() == moment().format('ha')) {
+              $('#spots').append('<p class="lead"><strong>Currently: </strong>' + spot.shape_full + '</p>');
+            }
+            $list.append('<li><strong>' + spot.hour + ':</strong> Swell: ' + spot.shape_detail.swell + ' Tide: ' + spot.shape_detail.tide + ' Wind: ' + spot.shape_detail.wind +'</li>');
+            if(spot.hour == '12PM' || spot.hour == '6AM' || spot.hour == '6PM') {
+              spotLabels.push(spot.hour);
+            }
+            else {
+              spotLabels.push('');
+            }
+            spotData.push(spot.size_ft);
+          });
+          var chartData = {
+            labels : spotLabels,
+            datasets : [
+              {
+                fillColor : "rgba(151,187,205,0.5)",
+                strokeColor : "rgba(151,187,205,1)",
+                pointColor : "rgba(151,187,205,1)",
+                pointStrokeColor : "#fff",
+                data : spotData
+              }
+            ]
+          };
+          var options = {
+            pointDot: false,
+            animation: false
+          };
+          var $canvas = $('<canvas height="200"/>');
+          $canvas.attr('width', $('#left').width() + 'px');
+          $('#spots').append($list);
+          $list.hide();
+          $('#spots').append($canvas);
+          var ctx = $canvas.get(0).getContext("2d");
+          var myNewChart = new Chart(ctx).Line(chartData, options);
 
         });
       });
