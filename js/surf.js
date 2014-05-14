@@ -97,9 +97,9 @@
         labels : windLabels,
         datasets : [
           {
-            fillColor : "rgba(245, 134, 30,0.5)",
-            strokeColor : "rgba(245, 134, 30,1)",
-            pointColor : "rgba(245, 134, 30,1)",
+            fillColor : "rgba(70, 191, 189,0.5)",
+            strokeColor : "rgba(70, 191, 189,1)",
+            pointColor : "rgba(70, 191, 189,1)",
             pointStrokeColor : "#fff",
             data : windData
           }
