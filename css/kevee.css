@@ -69,3 +69,22 @@
 .popover-hidden-content {
   display: none;
 }
+
+.surf h2 {
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.surf h1, .surf p, .surf h3, .surf h2, .surf ul {
+  padding-left: 15px;
+}
+
+.surf .pull-right {
+  margin-right: 15px;
+}
+
+.surf .btn.btn-primary {
+  background: #f33e6f;
+  border: 0px;
+  text-shadow: none;
+}

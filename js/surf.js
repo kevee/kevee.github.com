@@ -41,9 +41,10 @@
       };
       var options = {
         pointDot: false,
-        animation: false
+        animation: false,
+        scaleOverlay: true
       };
-      $('#swell').attr('width', $('#left').width() + 'px');
+      $('#swell').attr('width', $(window).width() + 'px');
       var ctx = document.getElementById("swell").getContext("2d");
       var myNewChart = new Chart(ctx).Line(chartData, options);
     });
@@ -73,9 +74,10 @@
       };
       var options = {
         pointDot: false,
-        animation: false
+        animation: false,
+        scaleOverlay: true
       };
-      $('#tide').attr('width', $('#left').width() + 'px');
+      $('#tide').attr('width', $(window).width() + 'px');
       var ctx = document.getElementById("tide").getContext("2d");
       var myNewChart = new Chart(ctx).Line(chartData, options);
     });
@@ -105,17 +107,18 @@
       };
       var options = {
         pointDot: false,
-        animation: false
+        animation: false,
+        scaleOverlay: true
       };
-      $('#wind').attr('width', $('#right').width() + 'px');
+      $('#wind').attr('width', $(window).width() + 'px');
       var ctx = document.getElementById("wind").getContext("2d");
       var myNewChart = new Chart(ctx).Line(chartData, options);
     });
     $.getJSON('http://www.spitcast.com/api/county/spots/monterey/', function(data) {
       $.each(data, function(index, spot) {
         $.getJSON('http://webprojects.csumb.edu/pub/surf.php?spot=' + spot.spot_id, function(data) {
-          $('#spots').append('<h2>' + spot.spot_name + '</h2>');
           var $deets = $('<a href="#" class="btn btn-primary pull-right slider" data-spot="' + spot.spot_id + '">Details</a>');
+          $('#spots').append('<h2>' + spot.spot_name + '</h2>');
           $('#spots').append($deets);
           $deets.on('click', function(event) {
             event.preventDefault();
@@ -151,10 +154,11 @@
           };
           var options = {
             pointDot: false,
-            animation: false
+            animation: false,
+            scaleOverlay: true
           };
           var $canvas = $('<canvas height="200"/>');
-          $canvas.attr('width', $('#left').width() + 'px');
+          $canvas.attr('width', $(window).width() + 'px');
           $('#spots').append($list);
           $list.hide();
           $('#spots').append($canvas);
