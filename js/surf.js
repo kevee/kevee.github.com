@@ -7,6 +7,17 @@
       $('#celcius').html(data.celcius);
       $('#wetsuit').html(data.wetsuit);
     });
+    $.getJSON('http://webprojects.csumb.edu/pub/weather.php?points=36.619122,-121.912891', function(data) {
+      var weather = data[0].data;
+      console.log(weather);
+      if(weather.alerts.length) {
+        $.each(weather.alerts, function(index, alert) {
+          $('#weather-alerts').append('<div class="container"><div class="alert alert-error">' + alert.description + '</div></div>');
+        });
+      }
+      $('#weather').append('<h3 style="font-size: 4em;">' + Math.round(weather.daily.data[0].apparentTemperatureMin) + '&deg; &mdash; ' + Math.round(weather.daily.data[0].apparentTemperatureMax) + '&deg;</h3>');
+      $('#weather').append('<p class="lead">' + weather.daily.data[0].summary + '</p>');
+    });
     $.getJSON('http://api.spitcast.com/api/county/swell/monterey/', function(data) {
       var swellData = {hs: [], tp: []};
       var swellLabels = [];
