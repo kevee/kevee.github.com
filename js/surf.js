@@ -10,7 +10,7 @@
     $.getJSON('http://webprojects.csumb.edu/pub/weather.php?points=36.619122,-121.912891', function(data) {
       var weather = data[0].data;
       console.log(weather);
-      if(weather.alerts.length) {
+      if(typeof weather.alerts !== 'undefined' && weather.alerts.length) {
         $.each(weather.alerts, function(index, alert) {
           $('#weather-alerts').append('<div class="container"><div class="alert alert-error">' + alert.description + '</div></div>');
         });
