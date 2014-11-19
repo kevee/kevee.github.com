@@ -1,0 +1,19 @@
+.cover {
+  background-color: #BFC987;
+  background-size: cover;
+  background-image: url('/assets/img/cover.jpg');
+  position: absolute;
+  z-index: 90;
+  right: 0;
+  width: 100%;
+  overflow: scroll;
+  padding-bottom: 30px;
+}
+
+.cover h1 {
+  font-family: 'Merriweather', serif;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: #fff;
+}

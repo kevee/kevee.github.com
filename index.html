@@ -1,62 +1,24 @@
----
-layout: front
-title: kevee.org
-tag: blog
-rsstext: rss
-yarn : yarn
-writing : writing
----
-<div class="me" role="banner">
-	<img src="https://d233eq3e3p3cv0.cloudfront.net/fit/c/256/256/0*GR1vBSa0KxSNDm0g.jpeg" alt="">
-	<h1>kevee <small> (kevin miller)</small></h1>
-</div>
-<blockquote class="largequote" role="banner">I build things using <a href="https://drupal.org/user/125882">Drupal</a>, <a href="/art">paper</a>, <a href="#" class="popover-link" data-contentid="popover-yarn">yarn</a>, tofu, and <a href="">JavaScript</a> that are used to <a href="http://quailjs.org" target="_blank">improve web accessibility</a>, warm hands, and help keep <a href="http://csumb.edu/drupal">higher education relevant</a>.
-	<div id="popover-yarn" class="popover-hidden-content">
-	<div>
-		{% for post in site.posts %}
-	  {% for tag in post.tags %}
-	  	{% if tag == "yarn" %}
-	  		{{ post.content }}
-	  	{% endif %}
-	  {% endfor %}
-	{% endfor %}
-	</div>
-</div>
-</blockquote>
-
-<div class="row extra-space">
-	
-	<div class="span6 rss" role="complimentary">
-		<h2 class="span6">What I've been doing</h2>
-		{% for post in site.posts limit:20%}
-		  {% for tag in post.tags %}
-		  	{% if tag == page.rsstext %}
-					<article>
-						{% if post.source != "github" %}
-							<h3><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h3>
-							<p>{{ post.date | date_to_string }}</p>
-						{% endif %}
-						<p>{{ post.content }}</p>
-					</article>
-				{% endif %}
-			{% endfor %}
-		{% endfor %}
-	</div>
-	<div class="span6 rss" role="article">
-		<h2 class="span6">What I've been writing</h2>
-		{% for post in site.posts limit:1000 %}
-		  {% for tag in post.tags %}
-		  	{% if tag == page.writing %}
-					<article>
-						{% if post.link %}
-							<h3><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h3>
-						{% else %}
-							<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-						{% endif %}
-						<p>{{ post.content }}</p>
-					</article>
-				{% endif %}
-			{% endfor %}
-		{% endfor %}
-	</div>
-</div>
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="/css/style.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+	</head>
+	<body>
+		<div class="cover">
+			<h1>kevee.org</h1>
+		</div>
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script>
+		(function($) {
+			$(document).ready(function() {
+				$(window).on('resize', function() {
+					$('.cover').css('height', $(window).height() + 'px');
+				});
+				$(window).trigger('resize');
+			});
+		})(jQuery);
+		</script>
+	</body>
+</html>
