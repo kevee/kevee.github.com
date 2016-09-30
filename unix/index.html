@@ -38,9 +38,10 @@
       $(document).ready(function() {
         var updateCounter = function() {
           $('#counter').html(Math.round(moment.now() / 1000));
+          setTimeout(updateCounter, 1000);
         };
         updateCounter();
-        setTimeout(updateCounter, 1000);
+        
         $('#from').on('click', function() {
           $('#results').html(moment.unix($('#date').val()).format());
         });
