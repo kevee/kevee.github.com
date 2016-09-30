@@ -23,6 +23,12 @@
 
             </pre>
           </div>
+          <div class="well" >
+            <h2>Current time</h2>
+            <pre id="counter" style="font-size: 30px;">
+
+            </pre>
+          </div>
         </div>
       </div>
     </div>
@@ -30,6 +36,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.js"></script>
     <script>
       $(document).ready(function() {
+        var updateCounter = function() {
+          $('#counter').html(Math.round(moment.now() / 1000));
+        };
+        updateCounter();
+        setTimeout(updateCounter, 1000);
         $('#from').on('click', function() {
           $('#results').html(moment.unix($('#date').val()).format());
         });
