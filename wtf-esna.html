@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ESNA</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hey, expand the little esna icon thing ⇘</h1>
+      <p class="hidden">Your phone number is <span id="phone"></span>.</p>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script>
+    var og_log = console.log
+    console.log = function(message) {
+      if(typeof message.id !== 'undefined') {
+        $('.hidden').show();
+        $('#phone').html(message.id);
+      }
+      return;
+    };
+    </script>
+  </body>
+</html>
