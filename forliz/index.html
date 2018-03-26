@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container" style="margin-top: 30px;">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <form>
+            <div class="form-group">
+              <label>Paste the KML:</label>
+              <textarea class="form-control input-lg" style="font-family: monospace;" id="kml"></textarea>
+            </div>
+            <input type="submit" value="Do the thing" class="btn btn-primary btn-lg"/>
+            <div class="form-group">
+              <label>Get the CSV:</label>
+              <textarea class="form-control input-lg" style="font-family: monospace;" id="csv"></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('form').on('submit', function(event) {
+          event.preventDefault();
+          var $kml = $($('#kml').val());
+          var csv = [];
+          $kml.find('Folder').each(function() {
+            var folder = $(this).find('name').first().text();
+            $(this).find('Placemark').each(function() {
+              var name = $(this).find('name').text().replace(/\n/g, ' ').replace(/\r/g, ' ');
+              var coordinates = $(this).find('coordinates').text().trim();
+              coordinates = coordinates.split(',');
+              csv.push([folder, name, coordinates[0], coordinates[1]].join(','));
+            });
+          });
+          $('#csv').val(csv.join("\n"));
+        });
+      });
+    </script>
+  </body>
+</html>
