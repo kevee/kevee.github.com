@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hotter!</title>
+  </head>
+  <body>
+    <a id="go">go</a>
+    <img
+      class="rythm-bass"
+      src="https://raw.githubusercontent.com/csumb/pixelotter/master/apple-touch-icon-180x180-precomposed.png"
+    />
+    <img
+      class="rythm-medium"
+      src="https://raw.githubusercontent.com/csumb/pixelotter/master/apple-touch-icon-180x180-precomposed.png"
+    />
+    <img
+      class="rythm-high"
+      src="https://raw.githubusercontent.com/csumb/pixelotter/master/apple-touch-icon-180x180-precomposed.png"
+    />
+    <script src="https://unpkg.com/rythm.js@2.2.4/rythm.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function() {
+        $("#go").on("click", function(e) {
+          e.preventDefault();
+          var rythm = new Rythm();
+          rythm.setMusic("/hotter.mp3");
+          rythm.start();
+        });
+      });
+    </script>
+  </body>
+</html>
