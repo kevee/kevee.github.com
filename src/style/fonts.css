@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Public Sans webfont';
+  src: url('../assets/webfonts/PublicSans-Black.woff2') format('woff2'),
+    url('../assets/webfonts/PublicSans-Black.woff') format('woff'),
+    url('../assets/webfonts/PublicSans-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
