@@ -7,6 +7,7 @@ const HeaderContainer = styled(Container)`
   margin-top: 1rem;
   margin-bottom: 2rem;
   h4 {
+    font-family: 'Public Sans thin';
     margin: 0;
     font-weight: 100;
   }
