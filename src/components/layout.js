@@ -3,6 +3,7 @@ import Header from './header'
 import Container from './container'
 import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
 import '@reach/skip-nav/styles.css'
+import '../style/fonts'
 
 export default ({ children, title }) => (
   <>
