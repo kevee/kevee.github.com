@@ -1,8 +1,7 @@
 import Typography from 'typography'
 import './fonts.css'
 
-const font = [
-  'Public Sans',
+const backupFonts = [
   'Helvetica Neue',
   'Segoe UI',
   'Helvetica',
@@ -11,10 +10,18 @@ const font = [
 ]
 
 const typography = new Typography({
-  baseFontSize: '24px',
+  baseFontSize: '20px',
   baseLineHeight: 1.45,
-  headerFontFamily: font,
-  bodyFontFamily: font,
+  headerFontFamily: ['Public Sans bold'].concat(backupFonts),
+  bodyFontFamily: ['Public Sans'].concat(backupFonts),
+  overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
+    a: {
+      color: '#056DD4',
+    },
+    'a:visited': {
+      color: '#056DD4',
+    },
+  }),
 })
 
 export default typography

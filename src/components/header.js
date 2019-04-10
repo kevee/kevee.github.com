@@ -3,9 +3,11 @@ import Container from './container'
 import styled from '@emotion/styled'
 import Link from 'gatsby-link'
 
+const HeaderWrapper = styled('header')`
+  margin: 1rem 0;
+`
+
 const HeaderContainer = styled(Container)`
-  margin-top: 1rem;
-  margin-bottom: 2rem;
   h4 {
     font-family: 'Public Sans thin';
     margin: 0;
@@ -15,7 +17,8 @@ const HeaderContainer = styled(Container)`
 
 const Navigation = styled('ul')`
   list-style-type: none;
-  margin: 0;
+  margin: 0.5rem 0;
+  font-family: 'Public Sans thin';
   li {
     margin: 0;
     padding-right: 1.5rem;
@@ -26,13 +29,32 @@ const Navigation = styled('ul')`
   }
 `
 
+const Brand = styled('h2')`
+  font-family: 'Public Sans thin';
+  margin: 0;
+  a {
+    color: #000;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+`
+
 export default () => (
-  <HeaderContainer>
-    <h4>Kevin Miller</h4>
-    <Navigation>
-      <li>
-        <Link to="/work">Work</Link>
-      </li>
-    </Navigation>
-  </HeaderContainer>
+  <HeaderWrapper>
+    <HeaderContainer>
+      <Brand>
+        <Link to="/">Kevin Miller</Link>
+      </Brand>
+      <Navigation>
+        <li>
+          <Link to="/resume">Resume</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
+      </Navigation>
+    </HeaderContainer>
+  </HeaderWrapper>
 )

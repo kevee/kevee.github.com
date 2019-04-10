@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Public Sans';
-  src: url('../assets/webfonts/PublicSans-Regular.woff2') format('woff2'),
-    url('../assets/webfonts/PublicSans-Regular.woff') format('woff'),
-    url('../assets/webfonts/PublicSans-Regular.ttf') format('truetype');
+  src: url('../assets/webfonts/PublicSans-Light.woff2') format('woff2'),
+    url('../assets/webfonts/PublicSans-Light.woff') format('woff'),
+    url('../assets/webfonts/PublicSans-Light.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
@@ -19,6 +19,14 @@
   src: url('../assets/webfonts/PublicSans-Black.woff2') format('woff2'),
     url('../assets/webfonts/PublicSans-Black.woff') format('woff'),
     url('../assets/webfonts/PublicSans-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Public Sans bold';
+  src: url('../assets/webfonts/PublicSans-Bold.woff2') format('woff2'),
+    url('../assets/webfonts/PublicSans-Bold.woff') format('woff'),
+    url('../assets/webfonts/PublicSans-Bold.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
