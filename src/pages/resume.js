@@ -2,16 +2,22 @@ import React from 'react'
 import Layout from '../components/layout'
 import styled from '@emotion/styled'
 import { Flex, Box } from '@rebass/grid/emotion'
+import bp from '../style/breakpoints'
 
 const TimeBox = styled(Box)`
   font-weight: 700;
   font-family: 'Public Sans black';
+  ${bp({
+    marginBottom: ['1.5rem', '0'],
+  })}
 `
 
 const ResumeItemFlex = styled(Flex)`
   margin-bottom: 2rem;
   ul {
-    margin: 0;
+    ${bp({
+      marginLeft: ['2rem', '0'],
+    })}
   }
 `
 
