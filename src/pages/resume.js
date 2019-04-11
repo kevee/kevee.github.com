@@ -10,6 +10,9 @@ const TimeBox = styled(Box)`
 
 const ResumeItemFlex = styled(Flex)`
   margin-bottom: 2rem;
+  ul {
+    margin: 0;
+  }
 `
 
 const ResumeItem = ({ time, children }) => (
@@ -56,7 +59,7 @@ export default () => (
         .
       </p>
       <p>
-        As a long-term member of the web team, I hired two of the only User
+        As a long-term member of the web team, I hired two of the first User
         Experience professionals in the entire California State University
         system. They direct all my development work. We are responsible for the
         entire campus website across all departments.
@@ -153,6 +156,113 @@ export default () => (
         erosion, littoral drift, marine mammal protection, and eliminating ocean
         plastic.
       </p>
+    </ResumeItem>
+    <h2>Artist's CV</h2>
+    <p>
+      While I no longer do exhibits, I still practice printmaking,
+      paper-cutting, and watercolors.
+    </p>
+    <ResumeItem time="2009">
+      <ul>
+        <li>
+          <a href="http://www.montereyart.org/past-exhibitions/montereynow-kevin-miller-2/">
+            Monterey Museum of Art
+          </a>
+          , Monterey, CA — Kevin Miller: MontereyNOW
+        </li>
+      </ul>
+    </ResumeItem>
+    <ResumeItem time="2008">
+      <ul>
+        <li>
+          Emily Brown Studio, Monterey, CA — New Work, Group Show (April - June
+          2008)
+        </li>
+        <li>
+          Lisa Coscino Gallery, Pacific Grove, CA — FRED (April - May 2008)
+        </li>
+        <li>
+          Sculpture Works, Sand City, CA — Octopi Collective's Untapped desires
+        </li>
+      </ul>
+    </ResumeItem>
+    <ResumeItem time="2007">
+      <ul>
+        <li>
+          Lauryn Taylor Fine Art, Carmel, CA — 'Holiday Lights Juried Show'
+          (Nov. 24 - Dec. 24 2007)
+        </li>
+        <li>
+          Lisa Coscino Gallery, Pacific Grove, CA — $99.99 (Nov. 30 - Dec. 30,
+          2007)
+        </li>
+        <li>
+          711 Cannery Row, Monterey, CA — 'Taste the Art, View the Wine' (Nov.
+          17 &amp; 18, 2007)
+        </li>
+        <li>
+          Lisa Coscino Gallery, Pacific Grove, CA — Solo Show 'Those Isles of
+          Yours' (Oct. 26 - Novemberish, 2007)
+        </li>
+        <li>
+          Art Works!, Pacific Grove, CA — Papercutting Workshop Extravaganza
+          (November 4th, 2007)
+        </li>
+        <li>
+          CSU Monterey Bay - Día de los Muertos - 10' x 14' installation
+          (November 1 - 4, 2007)
+        </li>
+        <li>
+          Lisa Coscino Gallery, Pacific Grove, CA — 'Live Nudes' (Sept. 14th -
+          Octoberish, 2007)
+        </li>
+        <li>
+          Lisa Coscino Gallery, Pacific Grove, CA — Postcards Show (July - Aug.,
+          2007)
+        </li>
+        <li>
+          Outer Edge Gallery, Monterey, CA — Favorites Show (July 27 - Aug. 31,
+          2007)
+        </li>
+        <li>
+          Colton Hall, Monterey, CA — Plein Air Award Winner's Exhibition (July,
+          207)
+        </li>
+        <li>Miriam's Café, Monterey, CA — Group Show (June-July, 2007)</li>
+        <li>
+          Art Works!, Pacific Grove, CA — 'April Showers Bring May Flowers...
+          and Maybe a Junebug or Two' (June-July, 2007)
+        </li>
+        <li>
+          Projekt30.com Noir Show Juried Exhibition, Online (June-Aug., 2007)
+        </li>
+        <li>
+          Outer Edge Gallery, Monterey, CA — Poster Show (Dec. 2006 - Jan. 2007)
+        </li>
+      </ul>
+    </ResumeItem>
+    <ResumeItem time="2006">
+      <ul>
+        <li>
+          Lauryn Taylor Fine Art, Carmel, CA — 'Holiday Lights Miniature Show'
+          (Dec. 2006)
+        </li>
+        <li>
+          San Jose Museum of Art, San Jose, CA — 'Day of the Dead Altera' (Oct.
+          - Nov. 2006)
+        </li>
+        <li>
+          Monterey Museum of Art, Monterey, CA — 'Miniatures' (Oct. - Dec. 2006)
+        </li>
+        <li>
+          Sweet Elena's Bakery &amp; Cafe, Sand City, CA — 'Papercuts &amp;
+          Landscapes' (July - Sept. 2006)
+        </li>
+        <li>
+          Lauryn Taylor Fine Art, Carmel, CA — 'Elementals Competition' (Feb.
+          2006)
+        </li>
+      </ul>
     </ResumeItem>
   </Layout>
 )
