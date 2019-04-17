@@ -22,7 +22,7 @@ const MeImage = styled('img')`
 `
 
 const IndexPage = () => (
-  <Layout>
+  <Layout isFront={true}>
     <IntroParagraph>Let's build a web for everyone.</IntroParagraph>
     <HomeParagraph>
       <MeImage src={me} alt="" />

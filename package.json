@@ -8,6 +8,7 @@
     "@emotion/core": "^10.0.9",
     "@emotion/styled": "^10.0.9",
     "@reach/skip-nav": "^0.1.2",
+    "@reach/visually-hidden": "^0.1.2",
     "@rebass/grid": "^6.0.0",
     "facepaint": "^1.2.1",
     "gatsby": "^2.1.31",

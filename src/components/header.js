@@ -41,12 +41,14 @@ const Brand = styled('h2')`
   }
 `
 
-export default () => (
+export default ({ isFront }) => (
   <HeaderWrapper>
     <HeaderContainer>
-      <Brand>
-        <Link to="/">Kevin Miller</Link>
-      </Brand>
+      {!isFront && (
+        <Brand>
+          <Link to="/">Kevin Miller</Link>
+        </Brand>
+      )}
       <Navigation>
         <li>
           <Link to="/resume">Resume</Link>
