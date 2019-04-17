@@ -13,6 +13,10 @@ const HomeParagraph = styled('p')`
   font-size: 1.2rem;
 `
 
+const HomeList = styled('ul')`
+  font-size: 1.1rem;
+`
+
 const MeImage = styled('img')`
   width: 150px;
   height: 150px;
@@ -28,14 +32,34 @@ const IndexPage = () => (
       <MeImage src={me} alt="" />
       Working as a web developer in a university means more than writing code.
       It means asking students waiting in line for coffee about how they find
-      what class to take. I write small, manageable, and non-repeating code to
-      solve problems.
+      what class to take. I write small and manageable code that solves
+      real-world problems.
     </HomeParagraph>
     <HomeParagraph>
-      I am passionate about usability and accessibility. I started the first
-      JavaScript-based accessibility project called Quail. I believe we can and
-      should have a web that works for everyone.
+      I am passionate about usability and accessibility. I started a JavaScript
+      accessibility project called{' '}
+      <a href="https://github.com/quailjs/quail">Quail</a>, which now lives in
+      in{' '}
+      <a href="https://github.com/dequelabs/axe-core">
+        other automated accessibility checkers
+      </a>
+      . I believe we can and should have a web that works for everyone.
     </HomeParagraph>
+    <h2>Let's work together</h2>
+    <HomeParagraph>
+      I am taking a break from my full-time gig, living in Argentina, and am
+      available to work on your next project. I currently love working on:
+    </HomeParagraph>
+    <HomeList>
+      <li>
+        Project that use React and <a href="https://gatsbyjs.org">Gatsby</a>
+      </li>
+      <li>Apps in higher education, history, archives, or the sciences</li>
+      <li>
+        Things that benefit non profits or organizations for social and
+        environmental justrice
+      </li>
+    </HomeList>
   </Layout>
 )
 
