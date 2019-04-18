@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
 import styled from '@emotion/styled'
-import me from '../assets/images/me.jpg'
 
 const IntroParagraph = styled('p')`
   font-size: 72px;
@@ -17,24 +16,9 @@ const HomeList = styled('ul')`
   font-size: 1.1rem;
 `
 
-const MeImage = styled('img')`
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
-  float: right;
-  margin: 0 0 0.5rem 0.5rem;
-`
-
 const IndexPage = () => (
   <Layout isFront={true}>
     <IntroParagraph>Let's build a web for everyone.</IntroParagraph>
-    <HomeParagraph>
-      <MeImage src={me} alt="" />
-      Working as a web developer in a university means more than writing code.
-      It means asking students waiting in line for coffee about how they find
-      what class to take. I write small and manageable code that solves
-      real-world problems.
-    </HomeParagraph>
     <HomeParagraph>
       I am passionate about usability and accessibility. I started a JavaScript
       accessibility project called{' '}
@@ -45,14 +29,16 @@ const IndexPage = () => (
       </a>
       . I believe we can and should have a web that works for everyone.
     </HomeParagraph>
+
     <h2>Let's work together</h2>
     <HomeParagraph>
-      I am taking a break from my full-time gig, living in Argentina, and am
-      available to work on your next project. I currently love working on:
+      I am taking a break from my full-time gig as lead developer in a small
+      university. I am living in Argentina, and available to work on your next
+      project. I currently love:
     </HomeParagraph>
     <HomeList>
       <li>
-        Project that use React and <a href="https://gatsbyjs.org">Gatsby</a>
+        Projects that use React and <a href="https://gatsbyjs.org">Gatsby</a>
       </li>
       <li>Apps in higher education, history, archives, or the sciences</li>
       <li>
