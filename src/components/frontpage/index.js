@@ -55,10 +55,6 @@ class FrontpageHero extends React.Component {
     animationComplete: false,
   }
 
-  componentDidMount() {
-    this.startAnimation()
-  }
-
   startAnimation() {
     this.setState({
       animationComplete: false,
@@ -126,6 +122,9 @@ class FrontpageHero extends React.Component {
               this.setState({
                 count: this.state.count + 1,
               })
+              if (this.state.count + 1 === images.length) {
+                setTimeout(this.startAnimation.bind(this), 1000)
+              }
             }}
           />
         ))}
