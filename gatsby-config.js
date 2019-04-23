@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: 'Gatsby Default Starter',
+    description:
+      'Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.',
+    author: '@gatsbyjs',
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: 'gatsby-plugin-typography',
       options: {
-        pathToConfigModule: `src/style/typography`,
+        pathToConfigModule: 'src/style/typography',
       },
     },
     {
@@ -17,6 +18,22 @@ module.exports = {
         logo: './src/assets/favicon/favicon-32x32.png',
       },
     },
+    {
+      resolve: 'gatsby-plugin-sharp',
+      options: {
+        useMozJpeg: false,
+        stripMetadata: true,
+        defaultQuality: 50,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'animation',
+        path: 'src/assets/images/animation/',
+      },
+    },
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

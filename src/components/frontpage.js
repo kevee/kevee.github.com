@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import bp from '../../style/breakpoints'
-import images from './images'
+import bp from '../style/breakpoints'
 import VisuallyHidden from '@reach/visually-hidden'
 
 const speed = 140
@@ -56,6 +55,7 @@ class FrontpageHero extends React.Component {
   }
 
   startAnimation() {
+    const { images } = this.props
     this.setState({
       animationComplete: false,
       currentImage: 0,
@@ -84,6 +84,7 @@ class FrontpageHero extends React.Component {
 
   render() {
     const { count, currentImage, animationComplete } = this.state
+    const { images } = this.props
     return (
       <FlipbookContainer>
         <FlipbookName>
@@ -116,7 +117,7 @@ class FrontpageHero extends React.Component {
           <FlipbookImage
             key={index}
             isActive={currentImage === index}
-            src={image}
+            src={image.node.fixed.src}
             alt=""
             onLoad={() => {
               this.setState({
