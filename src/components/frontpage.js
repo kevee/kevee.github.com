@@ -111,7 +111,11 @@ class FrontpageHero extends React.Component {
           </FlipbookRestartButton>
         )}
         {count < images.length && (
-          <FlipbookImage src={images[0]} isActive={true} alt="" />
+          <FlipbookImage
+            src={images[0].node.fixed.src}
+            isActive={true}
+            alt=""
+          />
         )}
         {images.map((image, index) => (
           <FlipbookImage
