@@ -132,37 +132,6 @@ export default () => (
         build new programs for a growing conservation movement.
       </p>
     </ResumeItem>
-
-    <ResumeItem time="2016-2019">
-      <h3>Chair — Surfrider Foundation, Monterey Chapter</h3>
-      <p>
-        I lead a rag-tag group of volunteers who are passionate about protecting
-        the coastline and beaches. I write grants, manage communications, and
-        build new programs for a growing conservation movement.
-      </p>
-    </ResumeItem>
-
-    <ResumeItem time="2017-2019">
-      <h3>
-        Advisory Council — Salinas Valley Basin Groundwater Sustainability
-        Agency
-      </h3>
-      <p>
-        Are you looking for someone who can read a 2,400 page Environmental
-        Impact Report, attend long public meetings, understand the argot of
-        California groundwater law? That might be me.
-      </p>{' '}
-    </ResumeItem>
-    <ResumeItem time="2017-2019">
-      <h3>Conservation Member — Monterey Bay National Marine Sanctuary</h3>
-      <p>
-        I represent the interests of local conservation organizations to the
-        National Marine Sanctuary. We help steer NOAA's direction in managing
-        the sanctuary, including developing plans for things like coastal
-        erosion, littoral drift, marine mammal protection, and eliminating ocean
-        plastic.
-      </p>
-    </ResumeItem>
     <h2>Artist's CV</h2>
     <p>
       While I no longer do exhibits, I still practice printmaking,
