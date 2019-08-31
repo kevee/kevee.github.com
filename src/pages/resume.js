@@ -51,8 +51,8 @@ export default () => (
       </h3>
       <p>
         I built and maintained custom web applications for the university,
-        including Customer Relationship Management, Contnet Management Systems,
-        business proecess mapping, and crazy organizational heirarchy widgets
+        including Customer Relationship Management, Content Management Systems,
+        business proecess mapping, and crazy organizational hierarchy widgets
         drawn with{' '}
         <a
           href="http://d3js.org/"
@@ -75,10 +75,7 @@ export default () => (
         are my frenemies. I've also built modern message queued or PubSubHub
         integration broker solutions for real-time integration.
       </p>
-      <p>
-        My current development work is 100% CoffeeScript, Grunt, Bower, SASS,
-        and Node.JS.
-      </p>
+      <p>My current development work is GatsbyJS, NodeJS, and React.</p>
     </ResumeItem>
     <ResumeItem time="2010-2012">
       <h3>
@@ -94,7 +91,7 @@ export default () => (
       </h3>
       <p>
         During my tenure at Cal State Monterey Bay, I developed a tool for
-        students to register for placements in Service Leanrning and internship
+        students to register for placements in Service Learning and internship
         programs. The CSU Chancellor's office picked up the project, and I
         developed a single tool for all 24 campuses. After the project gained
         enough momentum, we hired a position to take it up full time.

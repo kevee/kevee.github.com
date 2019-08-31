@@ -49,9 +49,9 @@ const IndexPage = ({ data }) => (
 
       <h2>Let's work together</h2>
       <HomeParagraph>
-        I am taking a break from my full-time gig as lead developer in a small
-        university. I am living in Argentina, and available to work on your next
-        project. I currently love:
+        I am currently living in Argentina, and am available
+        <Link to="/contact">to work on your next project</Link>. I currently
+        love:
       </HomeParagraph>
       <HomeList>
         <li>
