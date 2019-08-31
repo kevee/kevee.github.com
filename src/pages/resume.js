@@ -37,7 +37,7 @@ export default () => (
       B.A. Social History, Cal State Monterey Bay
     </ResumeItem>
     <h2>Employment history</h2>
-    <ResumeItem time="2007-present">
+    <ResumeItem time="2007-2019">
       <h3>
         Web Developer —{' '}
         <a
