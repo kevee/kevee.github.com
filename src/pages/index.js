@@ -7,6 +7,7 @@ import FrontpageHero from '../components/frontpage'
 import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
 import '@reach/skip-nav/styles.css'
 import '../style/fonts'
+import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 const IntroParagraph = styled('p')`
