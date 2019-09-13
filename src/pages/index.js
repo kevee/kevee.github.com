@@ -38,20 +38,16 @@ const IndexPage = ({ data }) => (
       <SkipNavContent />
       <IntroParagraph>Let's build a web for everyone.</IntroParagraph>
       <HomeParagraph>
-        I am passionate about usability and accessibility. I started a
-        JavaScript accessibility project called{' '}
-        <a href="https://github.com/quailjs/quail">Quail</a>, which now lives in
-        in{' '}
-        <a href="https://github.com/dequelabs/axe-core">
-          other automated accessibility checkers
-        </a>
-        . I believe we can and should have a web that works for everyone.
+        I am passionate about usability and accessibility. I believe we can and
+        should have a web that works for everyone. As a developer at a small
+        state university, I saw first-hand the impact that clear communication
+        and thoughtful design can have on people's lives.
       </HomeParagraph>
 
       <h2>Let's work together</h2>
       <HomeParagraph>
-        I am living in Argentina for 2019, and am available
-        <Link to="/contact">to work on your next project</Link>. I currently
+        I am living in Argentina for 2019, and am available{' '}
+        <Link to="/contact">to work on your next project</Link>. I currently{' '}
         love:
       </HomeParagraph>
       <HomeList>
