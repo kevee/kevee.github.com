@@ -24,7 +24,7 @@ const HomeList = styled('ul')`
   font-size: 1.1rem;
 `
 
-const HomeStrong = styled('strong')`
+const strong = styled('strong')`
   font-family: Public Sans black;
   margin-right: 0.5rem;
 `
@@ -56,25 +56,21 @@ const IndexPage = ({ data }) => (
       </HomeParagraph>
       <HomeList>
         <li>
-          <HomeStrong>
-            <a href="https://neaps.js.org/">Neaps</a>
-          </HomeStrong>{' '}
-          Tidal height predictor for Javascript.
+          <a href="https://neaps.js.org/">Neaps</a>, a tidal height predictor
+          for Javascript.
         </li>
         <li>
-          <HomeStrong>
-            <a href="https://github.com/gatsbyjs/gatsby/commits?author=kevee">
-              Gatsby documentation
-            </a>
-          </HomeStrong>{' '}
-          Helping the Gatsby team add and reorganize documentation.
+          <a href="https://github.com/gatsbyjs/gatsby/commits?author=kevee">
+            Helping the Gatsby team
+          </a>{' '}
+          add and reorganize documentation.
         </li>
         <li>
-          <HomeStrong>
-            <a href="https://mocoloco.org">Mocoloco</a>
-          </HomeStrong>{' '}
-          A listing of all public agencies and services in Monterey County,
-          California.
+          A{' '}
+          <a href="https://mocoloco.org">
+            listing of all public agencies and services
+          </a>{' '}
+          in Monterey County, California.
         </li>
       </HomeList>
 
