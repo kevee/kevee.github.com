@@ -54,7 +54,7 @@ const IndexPage = ({ data }) => (
         In 2019, I was living abroad and had time to work on some passion
         projects. These include:
       </HomeParagraph>
-      <ul>
+      <HomeList>
         <li>
           <HomeStrong>
             <a href="https://neaps.js.org/">Neaps</a>
@@ -76,7 +76,7 @@ const IndexPage = ({ data }) => (
           A listing of all public agencies and services in Monterey County,
           California.
         </li>
-      </ul>
+      </HomeList>
 
       <h2>Let's work together</h2>
       <HomeParagraph>
