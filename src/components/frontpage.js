@@ -54,6 +54,10 @@ class FrontpageHero extends React.Component {
     animationComplete: false,
   }
 
+  componentDidMount() {
+    setTimeout(this.startAnimation.bind(this), 3000)
+  }
+
   startAnimation() {
     const { images } = this.props
     this.setState({
@@ -124,9 +128,6 @@ class FrontpageHero extends React.Component {
             src={image.node.fixed.src}
             alt=""
             onLoad={() => {
-              if (this.state.count + 1 >= images.length) {
-                setTimeout(this.startAnimation.bind(this), 500)
-              }
               this.setState({
                 count: this.state.count + 1,
               })

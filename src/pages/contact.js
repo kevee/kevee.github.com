@@ -5,7 +5,7 @@ export default () => (
   <Layout title="Contact">
     <p>Want to get in touch? Send me an email at:</p>
     <p>
-      <a href="mailto:kevin@kevee.net">kevin@kevee.net</a>
+      <a href="mailto:keveemiller@gmail.com">keveemiller@gmail.com</a>
     </p>
     <p>You can also find me on Github:</p>
     <p>
