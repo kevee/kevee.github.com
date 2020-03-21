@@ -51,10 +51,16 @@ const IndexPage = ({ data }) => (
 
       <h2>What I've been up to</h2>
       <HomeParagraph>
-        In 2019, I was living abroad and had time to work on some passion
-        projects. These include:
+        Since 2019 I've been working on several passion projects. These include:
       </HomeParagraph>
       <HomeList>
+        <li>
+          Volunteering with the{' '}
+          <a href="https://github.com/COVID19Tracking/website">
+            COVID19 Tracking Project
+          </a>{' '}
+          on their website.
+        </li>
         <li>
           <a href="https://neaps.js.org/">Neaps</a>, a tidal height predictor
           for Javascript.
