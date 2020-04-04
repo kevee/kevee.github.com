@@ -59,7 +59,7 @@ const IndexPage = ({ data }) => (
           <a href="https://github.com/COVID19Tracking/website">
             COVID19 Tracking Project
           </a>{' '}
-          on their website.
+          as the Website Team Lead.
         </li>
         <li>
           <a href="https://neaps.js.org/">Neaps</a>, a tidal height predictor

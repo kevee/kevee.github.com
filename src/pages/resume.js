@@ -121,6 +121,19 @@ export default () => (
       </p>
     </ResumeItem>
     <h2>Public Service</h2>
+
+    <ResumeItem time="2020 - Current">
+      <h3>
+        Web Technology Team Lead —{' '}
+        <a href="http://covidtracking.com/">The COVID Tracking Project</a>
+      </h3>
+      <p>
+        As the web team lead, I coordinate designers, developers, and data entry
+        specialists to produce the most accurate website tracking COVID-19 in
+        the United States. My team has 15-30 members at any time, within a
+        project of over 300 volunteers.
+      </p>
+    </ResumeItem>
     <ResumeItem time="2016-2019">
       <h3>Chair — Surfrider Foundation, Monterey Chapter</h3>
       <p>
