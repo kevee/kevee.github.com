@@ -86,13 +86,13 @@ const IndexPage = ({ data }) => (
         I currently love:
       </HomeParagraph>
       <HomeList>
-        <li>
-          Projects that use React and <a href="https://gatsbyjs.org">Gatsby</a>
-        </li>
         <li>Apps in higher education, history, archives, or the sciences</li>
         <li>
           Things that benefit non profits or organizations for social and
-          environmental justrice
+          environmental justice
+        </li>
+        <li>
+          Projects that use React and <a href="https://gatsbyjs.org">Gatsby</a>
         </li>
       </HomeList>
     </Container>
