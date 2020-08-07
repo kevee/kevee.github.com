@@ -39,7 +39,7 @@ export default () => (
     <h2>Employment history</h2>
     <ResumeItem time="2020 - Current">
       <h3>
-        Web Technology Team Lead —{' '}
+        Website Lead —{' '}
         <a href="http://covidtracking.com/">The COVID Tracking Project</a>
       </h3>
       <p>
@@ -132,7 +132,7 @@ export default () => (
         Post Script language.
       </p>
     </ResumeItem>
-    <h2>Public Service</h2>
+    <h2>Public Service &amp; Projects</h2>
 
     <ResumeItem time="2016-2019">
       <h3>Chair — Surfrider Foundation, Monterey Chapter</h3>
@@ -140,6 +140,26 @@ export default () => (
         I lead a rag-tag group of volunteers who are passionate about protecting
         the coastline and beaches. I write grants, manage communications, and
         build new programs for a growing conservation movement.
+      </p>
+    </ResumeItem>
+
+    <ResumeItem time="2014">
+      <h3>Salinas River Documentation project</h3>
+      <p>
+        Set out to document the entirety of the{' '}
+        <a href="http://salinasriver.org/">Salinas River</a>, it's culture, it's
+        people, and the different ways to access the river legally and...
+        informally.
+      </p>
+    </ResumeItem>
+    <ResumeItem time="2001-2005">
+      <h3>Archivist — Fort Ord Museum and Archives</h3>
+      <p>
+        Started an{' '}
+        <a href="https://digitalcommons.csumb.edu/fortord_images/">archive</a>{' '}
+        for the social artifacts of the former Fort Ord, doing oral histories,
+        creating an ascensioning process, and digitizing records using a very
+        loud slide scanner.
       </p>
     </ResumeItem>
     <h2>Artist's CV</h2>

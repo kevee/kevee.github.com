@@ -55,11 +55,18 @@ const IndexPage = ({ data }) => (
       </HomeParagraph>
       <HomeList>
         <li>
-          Volunteering with the{' '}
+          Working as the website lead for the{' '}
           <a href="https://github.com/COVID19Tracking/website">
             COVID19 Tracking Project
           </a>{' '}
-          as the Website Team Lead.
+          .
+        </li>
+        <li>
+          A{' '}
+          <a href="https://mocoloco.org">
+            listing of all public agencies and services
+          </a>{' '}
+          in Monterey County, California.
         </li>
         <li>
           <a href="https://neaps.js.org/">Neaps</a>, a tidal height predictor
@@ -70,13 +77,6 @@ const IndexPage = ({ data }) => (
             Helping the Gatsby team
           </a>{' '}
           add and reorganize documentation.
-        </li>
-        <li>
-          A{' '}
-          <a href="https://mocoloco.org">
-            listing of all public agencies and services
-          </a>{' '}
-          in Monterey County, California.
         </li>
       </HomeList>
 

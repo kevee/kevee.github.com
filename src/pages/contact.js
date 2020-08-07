@@ -16,7 +16,11 @@ const Dl = styled.dl`
 
 export default () => (
   <Layout title="Contact">
-    <p>Want to get in touch? Send me an email:</p>
+    <p>
+      Want to get in touch?{' '}
+      <a href="https://twitter.com/thatkevee">DM me on Twitter</a>, or send me
+      an email:
+    </p>
     <Dl>
       <dt>
         Regarding the{' '}
