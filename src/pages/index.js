@@ -24,10 +24,6 @@ const HomeList = styled('ul')`
   font-size: 1.1rem;
 `
 
-const strong = styled('strong')`
-  font-family: Public Sans black;
-  margin-right: 0.5rem;
-`
 
 const IndexPage = ({ data }) => (
   <>
