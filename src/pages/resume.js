@@ -166,7 +166,7 @@ export default () => (
       <h3>Community radio DJ — KAZU 90.3 fm</h3>
       <p>
         Ran <em>The Mustard Pie Show</em> from 2am to 4am every Sunday morning
-        at <a href="https://kazu.org">KAZU 90.3fm</a>. An eclectic mix of any
+        at <a href="http://kazu.org">KAZU 90.3fm</a>. An eclectic mix of any
         song that had not been played by the station for over five years, and
         the occasional pre-recorded interview with touring bands. I also took
         requests from truck drivers and insomniacs.
