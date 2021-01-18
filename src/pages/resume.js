@@ -87,7 +87,6 @@ export default () => (
         are my frenemies. I've also built modern message queued or PubSubHub
         integration broker solutions for real-time integration.
       </p>
-      <p>My current development work is GatsbyJS, NodeJS, and React.</p>
     </ResumeItem>
     <ResumeItem time="2010-2012">
       <h3>
@@ -152,6 +151,7 @@ export default () => (
         informally.
       </p>
     </ResumeItem>
+
     <ResumeItem time="2001-2005">
       <h3>Archivist — Fort Ord Museum and Archives</h3>
       <p>
@@ -160,6 +160,16 @@ export default () => (
         for the social artifacts of the former Fort Ord, doing oral histories,
         creating an ascensioning process, and digitizing records using a very
         loud slide scanner.
+      </p>
+    </ResumeItem>
+    <ResumeItem time="1999-2003">
+      <h3>Community radio DJ — KAZU 90.3 fm</h3>
+      <p>
+        Ran <em>The Mustard Pie Show</em> from 2am to 4am every Sunday morning
+        at <a href="https://kazu.org">KAZU 90.3fm</a>. An eclectic mix of any
+        song that had not been played by the station for over five years, and
+        the occasional pre-recorded interview with touring bands. I also took
+        requests from truck drivers and insomniacs.
       </p>
     </ResumeItem>
     <h2>Artist's CV</h2>
