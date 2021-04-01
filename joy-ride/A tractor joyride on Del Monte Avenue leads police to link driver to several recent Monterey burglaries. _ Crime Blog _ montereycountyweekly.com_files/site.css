@@ -1,0 +1,2388 @@
+/* line 6, ../sass/headerfooternavbar.sass */
+#site-top-nav-container, #site-header-container {
+  display: none !important;
+}
+
+/* ########## custom font */
+
+
+/* line 11, ../sass/headerfooternavbar.sass */
+body:last-child #main-nav_menu {
+  margin-top: 0px !important;
+  margin-bottom: 10px !important;
+}
+/* line 15, ../sass/headerfooternavbar.sass */
+body:last-child #main-nav_menu > li:first-child > a {
+  width: 170px !important;
+  height: 80px !important;
+  -webkit-animation: logoswap 15s infinite running !important;
+  -moz-animation: logoswap 15s infinite running !important;
+  -ms-animation: logoswap 15s infinite running !important;
+  -o-animation: logoswap 15s infinite running !important;
+  background-image: url(https://bloximages.newyork1.vip.townnews.com/montereycountyweekly.com/content/tncms/assets/v3/editorial/6/5b/65bac51a-7c1a-11e5-a65b-078cfc4fa089/562e83543ae88.image.png) !important;
+  background-size: 170px 80px !important;
+  display: block !important;
+  -webkit-opacity: inherit !important;
+  -moz-opacity: inherit !important;
+  -ms-opacity: inherit !important;
+  -o-opacity: inherit !important;
+  color: #FFFFFF !important;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* line 15, ../sass/headerfooternavbar.sass */
+  body:last-child #main-nav_menu > li:first-child > a {
+    background-image: url(https://bloximages.newyork1.vip.townnews.com/montereycountyweekly.com/content/tncms/assets/v3/editorial/d/bd/dbdbba08-29b6-11e5-81e7-e38e4cb3dc33/55a5a25d98b45.image.png) !important;
+  }
+}
+/* line 29, ../sass/headerfooternavbar.sass */
+body:last-child #main-nav_menu.navbar-nav > li:nth-child(2) {
+  margin-left: 170px !important;
+}
+/* line 32, ../sass/headerfooternavbar.sass */
+body:last-child #main-nav_menu.navbar-nav > li:first-child {
+  width: 170px !important;
+  height: 80px !important;
+  display: block !important;
+  position: absolute !important;
+  top: 0px !important;
+  background-image: url(https://bloximages.newyork1.vip.townnews.com/montereycountyweekly.com/content/tncms/assets/v3/editorial/d/bd/dbdbba08-29b6-11e5-81e7-e38e4cb3dc33/55a5a25d98b45.image.png) !important;
+  background-repeat: none !important;
+  background-size: 170px 80px !important;
+  opacity: inherit !important;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 32, ../sass/headerfooternavbar.sass */
+  body:last-child #main-nav_menu.navbar-nav > li:first-child {
+    top: 20px !important;
+  }
+}
+/* line 44, ../sass/headerfooternavbar.sass */
+body:last-child #main-nav_menu.navbar-nav > li > a > span {
+  /*display: none !important;*/
+  /* As of 2017-05-10 this began hiding the navbar */
+}
+
+/* line 48, ../sass/headerfooternavbar.sass */
+_:-webkit-full-screen:not(:root:root), body:last-child #main-nav_menu > li:first-child > a {
+  background-image: url(https://bloximages.newyork1.vip.townnews.com/montereycountyweekly.com/content/tncms/assets/v3/editorial/d/bd/dbdbba08-29b6-11e5-81e7-e38e4cb3dc33/55a5a25d98b45.image.png) !important;
+  opacity: 0 !important;
+}
+
+@keyframes logoswap {
+  0% {
+    color: transparent !important;
+    -webkit-opacity: 0 !important;
+    -moz-opacity: 0 !important;
+    -ms-opacity: 0 !important;
+    -o-opacity: 0 !important;
+    opacity: 0 !important;
+  }
+  40% {
+    color: transparent !important;
+    -webkit-opacity: 0 !important;
+    -moz-opacity: 0 !important;
+    -ms-opacity: 0 !important;
+    -o-opacity: 0 !important;
+    opacity: 0 !important;
+  }
+  45%, 95% {
+    color: #BABABA !important;
+    -webkit-opacity: 1 !important;
+    -moz-opacity: 1 !important;
+    -ms-opacity: 1 !important;
+    -o-opacity: 1 !important;
+    opacity: 1 !important;
+  }
+  100% {
+    color: transparent !important;
+    -webkit-opacity: 0 !important;
+    -moz-opacity: 0 !important;
+    -ms-opacity: 0 !important;
+    -o-opacity: 0 !important;
+    opacity: 0 !important;
+  }
+}
+/* line 72, ../sass/headerfooternavbar.sass */
+#site-top-nav-container .col-md-3 {
+  width: 240px !important;
+}
+
+@media screen and (min-width: 992px -1) {
+  /* line 76, ../sass/headerfooternavbar.sass */
+  #main-navigation {
+    max-height: 50px !important;
+  }
+}
+/* line 80, ../sass/headerfooternavbar.sass */
+#site-navbar-container .navbar-brand img {
+  position: absolute !important;
+  max-height: 70px !important;
+  top: 0px !important;
+}
+@media screen and (max-width: 992px) {
+  /* line 80, ../sass/headerfooternavbar.sass */
+  #site-navbar-container .navbar-brand img {
+    top: 32px !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, -50%) !important;
+    -moz-transform: translate(-50%, -50%) !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    -o-transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important;
+  }
+}
+/* line 93, ../sass/headerfooternavbar.sass */
+#site-navbar-container .navbar-static .navbar-nav > li > a {
+  height: 100% !important;
+}
+/* line 95, ../sass/headerfooternavbar.sass */
+#site-navbar-container.affix-top {
+  top: 0 !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  z-index: 100 !important;
+  left: 0 !important;
+  position: fixed !important;
+}
+/* line 102, ../sass/headerfooternavbar.sass */
+#site-navbar-container a {
+  color: white !important;
+}
+
+@media (min-width: 1200px) {
+  /* line 111, ../sass/headerfooternavbar.sass */
+  #site-navbar-container {
+    max-height: 50px !important;
+  }
+  /* line 113, ../sass/headerfooternavbar.sass */
+  #site-navbar-container #main-navigation {
+    max-height: 50px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 117, ../sass/headerfooternavbar.sass */
+  #site-navbar-container {
+    max-height: 100px !important;
+  }
+  /* line 119, ../sass/headerfooternavbar.sass */
+  #site-navbar-container #main-navigation {
+    max-height: 100px !important;
+  }
+}
+/* line 122, ../sass/headerfooternavbar.sass */
+#main-nav_menu {
+  margin-bottom: 0 !important;
+}
+/* line 124, ../sass/headerfooternavbar.sass */
+#main-nav_menu .dropdown-menu {
+  margin-top: 0px !important;
+}
+
+/* line 128, ../sass/headerfooternavbar.sass */
+#navbar-collapse .pull-right {
+  width: 150px !important;
+}
+/* line 130, ../sass/headerfooternavbar.sass */
+#navbar-collapse .user-controls.pull-right {
+  width: 45px !important;
+}
+
+/* line 133, ../sass/headerfooternavbar.sass */
+#tncms-region-main-nav-right-region .site-search-form.pull-right .form-control {
+  width: 280px !important;
+}
+
+/* line 136, ../sass/headerfooternavbar.sass */
+#navbar-collapse .pull-right {
+  width: 197px !important;
+}
+
+/* line 139, ../sass/headerfooternavbar.sass */
+#site-navbar-container .navbar-static .navbar-nav > li > a {
+  font-weight: bold !important;
+}
+
+/* line 142, ../sass/headerfooternavbar.sass */
+#site-top-nav {
+  line-height: 28px !important;
+}
+
+/* line 145, ../sass/headerfooternavbar.sass */
+.follow-links-607267 li a {
+  margin-right: 0 !important;
+  margin-left: 10px !important;
+}
+
+/* line 149, ../sass/headerfooternavbar.sass */
+#main-nav_menu a:hover, #main-nav-right-nav_menu a:hover {
+  color: #000 !important;
+}
+
+/* line 152, ../sass/headerfooternavbar.sass */
+#main-nav_menu a:focus, #main-nav-right-nav_menu a:focus {
+  color: #EEE6EE !important;
+}
+
+/* line 155, ../sass/headerfooternavbar.sass */
+#main-nav_menu .dropdown-menu, #main-nav-right-nav_menu-child.dropdown-menu {
+  margin-top: 0px !important;
+  background-color: #000 !important;
+  color: #EEE6EE !important;
+}
+
+/* line 160, ../sass/headerfooternavbar.sass */
+#main-nav_menu .dropdown-menu a, #main-nav-right-nav_menu .dropdown-menu a {
+  color: #EEE6EE !important;
+  font-weight: bold !important;
+}
+
+/* line 165, ../sass/headerfooternavbar.sass */
+#main-nav_menu .dropdown-menu a:hover, #main-nav_menu .dropdown-menu a:focus {
+  color: #000 !important;
+}
+
+/* line 169, ../sass/headerfooternavbar.sass */
+#main-nav-right-nav_menu .dropdown-menu a:hover, #main-nav-right-nav_menu .dropdown-menu a:focus {
+  color: #000 !important;
+}
+
+/* line 172, ../sass/headerfooternavbar.sass */
+#main-nav_menu .dropdown-menu .dropdown-toggle, #main-nav-right-nav_menu .dropdown-menu .dropdown-toggle {
+  color: #EEE6EE !important;
+}
+
+/* line 176, ../sass/headerfooternavbar.sass */
+#main-nav_menu .dropdown-menu > li > a:focus, #main-nav_menu .dropdown-menu > li > a:hover {
+  background-color: #FFC824 !important;
+  color: #000 !important;
+}
+
+/* line 181, ../sass/headerfooternavbar.sass */
+#main-nav-right-nav_menu .dropdown-menu > li > a:focus, #main-nav-right-nav_menu .dropdown-menu > li > a:hover {
+  background-color: #FFC824 !important;
+  color: #000 !important;
+}
+
+/* line 185, ../sass/headerfooternavbar.sass */
+.nav.navbar-right .dropdown-menu {
+  background-color: #000 !important;
+  color: #EEE6EE !important;
+}
+
+/* line 189, ../sass/headerfooternavbar.sass */
+#main-nav-right-nav_menu-child.dropdown-menu {
+  margin-top: 0px !important;
+}
+
+/* line 192, ../sass/headerfooternavbar.sass */
+.dropdown-menu .btn {
+  background-color: #D80031 !important;
+}
+
+/* line 197, ../sass/headerfooternavbar.sass */
+#site-header.container div:nth-child(2) {
+  display: none !important;
+}
+
+/* line 201, ../sass/headerfooternavbar.sass */
+#main-navigation li a:hover {
+  color: #000 !important;
+  margin: 0 !important;
+}
+/* line 204, ../sass/headerfooternavbar.sass */
+#main-navigation li a:focus {
+  color: #EEE6EE !important;
+}
+
+/* line 208, ../sass/headerfooternavbar.sass */
+body:last-child #main-nav_menu > li:first-child > a {
+  width: 170px !important;
+  height: 80px !important;
+  -webkit-animation: logoswap 15s infinite running !important;
+  -moz-animation: logoswap 15s infinite running !important;
+  -ms-animation: logoswap 15s infinite running !important;
+  -o-animation: logoswap 15s infinite running !important;
+  background-image: url(https://bloximages.newyork1.vip.townnews.com/montereycountyweekly.com/content/tncms/assets/v3/editorial/6/5b/65bac51a-7c1a-11e5-a65b-078cfc4fa089/562e83543ae88.image.png) !important;
+  background-size: 170px 80px !important;
+  display: block !important;
+  -webkit-opacity: inherit !important;
+  -moz-opacity: inherit !important;
+  -ms-opacity: inherit !important;
+  -o-opacity: inherit !important;
+  color: #FFFFFF !important;
+}
+
+@keyframes logoswap {
+  0%, 100% {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -ms-opacity: 0;
+    -o-opacity: 0;
+    color: transparent !important;
+  }
+  40% {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -ms-opacity: 0;
+    -o-opacity: 0;
+    color: transparent !important;
+  }
+  45%, 95% {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -ms-opacity: 1;
+    -o-opacity: 1;
+    color: #BABABA !important;
+  }
+}
+@media (min-width: 992px) {
+  /* line 233, ../sass/headerfooternavbar.sass */
+  .navbar-nav.navbar-right {
+    float: left !important;
+  }
+}
+/* mosaic */
+@media screen and (min-size: 1200px) {
+  /* line 14, ../sass/levi.sass */
+  div.mosaic-grid.row.row-seamless div.col-sm-6.col-md-6:nth-of-type(1) {
+    width: 62% !important;
+  }
+  /* line 16, ../sass/levi.sass */
+  div.mosaic-grid.row.row-seamless div.col-sm-6.col-md-6:nth-of-type(2) {
+    width: 38% !important;
+  }
+}
+/* line 18, ../sass/levi.sass */
+a {
+  color: #3f3f3f !important;
+}
+/* line 20, ../sass/levi.sass */
+a:hover {
+  text-transform: underline !important;
+}
+
+/* line 23, ../sass/levi.sass */
+.block-title h3 {
+  font-weight: 300 !important;
+  font-size: 22px !important;
+  padding-left: 5px !important;
+}
+
+/* line 29, ../sass/levi.sass */
+.emphasis-h3 .heading.card, .emphasis-h3 .card .block-title {
+  margin-bottom: 0px !important;
+}
+
+/* line 32, ../sass/levi.sass */
+.mosaic-grid a {
+  color: white !important;
+}
+
+/* subnav panels */
+/* line 37, ../sass/levi.sass */
+#mobile-nav-right_menu a {
+  color: white !important;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 40, ../sass/levi.sass */
+  .panel {
+    box-shadow: none !important;
+    border: none !important;
+    border-bottom: 1px solid #5F0015 !important;
+  }
+
+  /* line 45, ../sass/levi.sass */
+  .panel-group .panel + .panel {
+    margin-top: 0 !important;
+    background-color: #FFF !important;
+  }
+
+  /* line 49, ../sass/levi.sass */
+  .panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
+    border-top: 1px solid #D80031 !important;
+  }
+  /* line 51, ../sass/levi.sass */
+  .panel-group .panel-heading + .panel-collapse > .panel-body .list-group-item.active, .panel-group .panel-heading + .panel-collapse > .panel-body .list-group-item.active:hover, .panel-group .panel-heading + .panel-collapse > .panel-body .list-group-item.active:focus, .panel-group .panel-heading + .panel-collapse > .list-group .list-group-item.active, .panel-group .panel-heading + .panel-collapse > .list-group .list-group-item.active:hover, .panel-group .panel-heading + .panel-collapse > .list-group .list-group-item.active:focus {
+    background-color: #EEE !important;
+    border-color: #EEE !important;
+  }
+
+  /* line 55, ../sass/levi.sass */
+  .panel-default > .panel-heading {
+    background-color: #bf002b !important;
+    color: white !important;
+  }
+  /* line 58, ../sass/levi.sass */
+  .panel-default > .panel-heading h3, .panel-default > .panel-heading li, .panel-default > .panel-heading a {
+    color: white !important;
+  }
+}
+/* line 61, ../sass/levi.sass */
+span.fa.fa-search, span.fa.fa-user {
+  color: white !important;
+}
+
+/* line 65, ../sass/levi.sass */
+.classifieds-categories a:hover, .classifieds-categories .media-heading:hover, .classifieds-categories .card-headline.panel-heading:hover {
+  color: #FFF !important;
+}
+
+/* line 69, ../sass/levi.sass */
+.home-recent-v2 .col-sm-7 .card-container .card-meta, .home-recent-v2 .col-sm-7 .card .card-labels {
+  display: none !important;
+}
+
+/* line 72, ../sass/levi.sass */
+#masthead-col-three {
+  display: none !important;
+}
+
+/* line 75, ../sass/levi.sass */
+#masthead-col-two {
+  float: right !important;
+  width: 728px !important;
+  padding-top: 1em !important;
+}
+
+/* line 80, ../sass/levi.sass */
+.navbar-header {
+  float: none !important;
+}
+
+/* line 83, ../sass/levi.sass */
+#masthead-col-two .tnt-ads {
+  margin-bottom: 0px !important;
+}
+
+/* line 86, ../sass/levi.sass */
+#tncms-region-masthead-col-one img {
+  height: 96px !important;
+}
+
+/* line 89, ../sass/levi.sass */
+#site-header-container {
+  height: 50px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: white !important;
+}
+
+/* line 95, ../sass/levi.sass */
+#site-top-nav-container {
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-top: 7px !important;
+  height: 10px !important;
+}
+/* line 100, ../sass/levi.sass */
+#site-top-nav-container .btn.btn-primary {
+  background-color: #D80031 !important;
+}
+
+/* line 103, ../sass/levi.sass */
+#main-body-container {
+  margin-top: 66px !important;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 103, ../sass/levi.sass */
+  #main-body-container {
+    margin-top: 75px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 107, ../sass/levi.sass */
+  .type-collection #main-body-container {
+    margin-top: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 112, ../sass/levi.sass */
+  #sidebar {
+    width: 170px !important;
+    margin-left: -15px !important;
+  }
+}
+/* line 116, ../sass/levi.sass */
+#sidebar.affix {
+  top: 90px !important;
+}
+
+/* line 119, ../sass/levi.sass */
+.navbar {
+  min-height: 32px !important;
+}
+
+/* line 122, ../sass/levi.sass */
+#masthead-col-one {
+  padding-left: 0 !important;
+}
+
+/* line 126, ../sass/levi.sass */
+.list-group-item:hover, .list-group-item.active:hover {
+  background-color: #EEE !important;
+  color: #000 !important;
+}
+
+/* line 132, ../sass/levi.sass */
+a.list-group-item:hover, a.list-group-item.active:hover {
+  background-color: #EEE !important;
+  color: #000 !important;
+}
+
+/*** gets rid of bg color behind transparent images */
+/* line 141, ../sass/levi.sass */
+.card .card-image .photo.layout-vertical {
+  background: none !important;
+}
+
+/*** More Link buttons */
+/* line 146, ../sass/levi.sass */
+.list-inline.block-links.pos-top {
+  margin-top: 1px !important;
+}
+/* line 148, ../sass/levi.sass */
+.list-inline.block-links.pos-top > li > a {
+  padding: 4px 7px !important;
+  font-size: 12px !important;
+  border-radius: 3px !important;
+  display: inline-block !important;
+  font-weight: 400 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  -moz-user-select: none !important;
+  background-image: none !important;
+  background: #111 !important;
+  color: #FFFFF6 !important;
+  text-transform: none !important;
+}
+/* line 164, ../sass/levi.sass */
+.list-inline.block-links.pos-top > li > a:hover {
+  color: #000 !important;
+  background-color: #D80031 !important;
+  border-color: #5F0015 !important;
+  text-transform: none !important;
+}
+
+/* line 171, ../sass/levi.sass */
+.list-inline.pos-bottom > li > a {
+  padding: 4px 7px !important;
+  font-size: 12px !important;
+  border-radius: 3px !important;
+  display: inline-block !important;
+  font-weight: 400 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  -moz-user-select: none !important;
+  background-image: none !important;
+  background: #111 !important;
+  color: #FFFFF6 !important;
+  text-transform: none !important;
+}
+/* line 187, ../sass/levi.sass */
+.list-inline.pos-bottom > li > a:hover {
+  color: #000 !important;
+  background-color: #D80031 !important;
+  border-color: #5F0015 !important;
+  text-transform: none !important;
+}
+
+/*** Mosaic stuff */
+/* line 197, ../sass/levi.sass */
+.mosaic-grid .mosaic-item h2.headline {
+  font-size: 24px !important;
+  line-height: 30px !important;
+}
+/* line 200, ../sass/levi.sass */
+.mosaic-grid .mosaic-item h3 {
+  font-size: 16px !important;
+  line-height: 20px !important;
+}
+/* line 203, ../sass/levi.sass */
+.mosaic-grid .mosaic-item .meta {
+  background: rgba(0, 0, 0, 0.35) none repeat scroll 0% 0% !important;
+  width: 100% !important;
+}
+/* line 206, ../sass/levi.sass */
+.mosaic-grid .mosaic-item .meta:hover {
+  background: none !important;
+}
+
+/**** HOME STUFF */
+@media (max-width: 1200px) {
+  /* line 211, ../sass/levi.sass */
+  .col-sm-5, .col-sm-7 {
+    width: 100% !important;
+  }
+}
+/* v2 */
+/* line 218, ../sass/levi.sass */
+.home-recent .card-top-story-list .col-sm-5 {
+  width: 64% !important;
+}
+/* line 220, ../sass/levi.sass */
+.home-recent .card-top-story-list .col-sm-7 {
+  width: 35% !important;
+}
+
+/* line 225, ../sass/levi.sass */
+.home-recent-v2 .card-top-story-list .col-sm-5 {
+  width: 55% !important;
+}
+/* line 227, ../sass/levi.sass */
+.home-recent-v2 .card-top-story-list .col-sm-7 {
+  width: 45% !important;
+}
+/* line 230, ../sass/levi.sass */
+.home-recent-v2 .card-top-story-list .headline-list .card .card-headline h4 {
+  font-size: 16px !important;
+  margin-bottom: 0 !important;
+}
+/* line 233, ../sass/levi.sass */
+.home-recent-v2 .card-top-story-list .headline-list > .card {
+  padding-bottom: 5px !important;
+}
+
+/* line 236, ../sass/levi.sass */
+.home-recent .card .card-headline h3, .home-recent-v3 .card .card-headline h3 {
+  font-size: 24px !important;
+  line-height: 26px !important;
+  margin-bottom: 2px !important;
+}
+
+/* line 241, ../sass/levi.sass */
+.home-recent .card-top-story-list .headline-list .card .card-headline h4 {
+  font-size: 14px !important;
+  margin-bottom: 0 !important;
+}
+
+/* v3 */
+/* line 249, ../sass/levi.sass */
+.home-recent-v3 .card-top-story-list .col-sm-5 {
+  width: 60% !important;
+}
+/* line 251, ../sass/levi.sass */
+.home-recent-v3 .card-top-story-list .col-sm-7 {
+  width: 40% !important;
+}
+/* line 254, ../sass/levi.sass */
+.home-recent-v3 .card-img-sm .card .card-container > .card-image {
+  width: 25% !important;
+}
+/* line 256, ../sass/levi.sass */
+.home-recent-v3 .card-img-sm .card.has-image > .card-container > .card-body {
+  margin-left: 25% !important;
+}
+/* line 259, ../sass/levi.sass */
+.home-recent-v3 .card-top-story-list .headline-list .card .card-headline h4 {
+  font-size: 18px !important;
+  line-height: 1.2em !important;
+  margin-bottom: 0 !important;
+  margin-top: 5px !important;
+  padding-right: 18px !important;
+}
+/* line 265, ../sass/levi.sass */
+.home-recent-v3 .card-top-story-list .headline-list > .card:first-child .card-headline h4 {
+  margin-top: 0px !important;
+}
+
+/* line 268, ../sass/levi.sass */
+.home-recent-v2 .card-top-story-list .headline-list > .card:last-child, .home-recent-v3 .card-top-story-list .headline-list > .card:last-child {
+  border-bottom: 0 !important;
+}
+
+/** Comments */
+/* line 273, ../sass/levi.sass */
+.commentContent {
+  position: relative !important;
+  background: #ffffff !important;
+  font-style: italic !important;
+  border: 1px solid #CCC !important;
+  padding: 17px !important;
+  margin: 12px !important;
+  border-radius: 7px !important;
+}
+/* line 281, ../sass/levi.sass */
+.commentContent:after, .commentContent:before {
+  bottom: 100% !important;
+  left: 40px !important;
+  border: solid transparent !important;
+  content: " " !important;
+  height: 0 !important;
+  width: 0 !important;
+  position: absolute !important;
+  pointer-events: none !important;
+}
+/* line 290, ../sass/levi.sass */
+.commentContent:after {
+  border-color: rgba(255, 255, 255, 0) !important;
+  border-bottom-color: #ffffff !important;
+  border-width: 8px !important;
+  margin-left: -8px !important;
+}
+/* line 295, ../sass/levi.sass */
+.commentContent:before {
+  border-color: transparent !important;
+  border-bottom-color: #CCC !important;
+  border-width: 9px !important;
+  margin-left: -9px !important;
+}
+
+/* COMMENT BUBBLE and ARROW */
+/** Update time block */
+/* line 305, ../sass/levi.sass */
+.home-recent ul, .home-recent-v2 ul, .home-recent-v3 ul {
+  margin-bottom: 0px !important;
+}
+
+/* line 308, ../sass/levi.sass */
+.home-recent ul .asset-date, .home-recent-v2 ul .asset-date, .home-recent-v3 ul .asset-date {
+  font-size: 12px !important;
+}
+
+/** Events block */
+/* line 314, ../sass/levi.sass */
+.home-events .card.event-list .event-list-item .event-date-container {
+  display: none !important;
+}
+/* line 316, ../sass/levi.sass */
+.home-events .card.event-list .event-list-item .event-info {
+  margin-left: 0px !important;
+}
+
+/*** Events styles (temporary) */
+/* line 322, ../sass/levi.sass */
+.section-events .card-date {
+  color: #D80031 !important;
+}
+/* line 324, ../sass/levi.sass */
+.section-events .card-cost {
+  color: #aaa !important;
+}
+/* line 326, ../sass/levi.sass */
+.section-events .card-headline a {
+  color: #3f3f3f !important;
+}
+/* line 328, ../sass/levi.sass */
+.section-events .card-headline a:hover {
+  text-decoration: underline !important;
+}
+
+/** Issue image */
+@media screen and (min-width: 768px) {
+  /* line 336, ../sass/levi.sass */
+  .issue-cover .card .card-container > .card-image {
+    width: 55% !important;
+    margin-top: -10px !important;
+  }
+  /* line 339, ../sass/levi.sass */
+  .issue-cover .card.has-image > .card-container > .card-body {
+    margin-left: 55%;
+  }
+  /* line 341, ../sass/levi.sass */
+  .issue-cover .card .card-image .photo.layout-vertical img {
+    max-height: 350px !important;
+  }
+  /* line 343, ../sass/levi.sass */
+  .issue-cover .card .card-body .card-lead > p {
+    font-size: 17px !important;
+  }
+  /* line 345, ../sass/levi.sass */
+  .issue-cover .card .card-headline h4 {
+    display: none !important;
+  }
+}
+
+/* line 348, ../sass/levi.sass */
+.section-issue .issue-cover .card-container {
+  margin-top: 0px !important;
+}
+
+/* line 351, ../sass/levi.sass */
+.clearfix.card.feature .centered-content-container, .recent-issues .card .card-headline h4, .xsection-archives .card .card-headline > h3 {
+  display: none !important;
+}
+
+/** Recent Issue images */
+/* line 356, ../sass/levi.sass */
+.recent-issues .card .card-meta, .section-archives .card .card-meta {
+  font-size: 15px !important;
+  text-align: center !important;
+}
+
+/** ARTICLE BORDER */
+/* line 362, ../sass/levi.sass */
+.card-img-md > article.card.summary {
+  border-bottom: 1px solid #ddd !important;
+}
+/* line 364, ../sass/levi.sass */
+.card-img-md > article.card.summary:last-child {
+  border-bottom: none !important;
+}
+
+/** EVENTS IMG BORDER */
+/* line 369, ../sass/levi.sass */
+figure.photo > .image > a > img {
+  border: 1px solid #DDD !important;
+}
+
+/**** HEADER TITLES */
+/* line 374, ../sass/levi.sass */
+#main-top-container .fullscreen-region .heading .block-title-inner {
+  margin: 20px 0px 5px 0px !important;
+}
+/* line 376, ../sass/levi.sass */
+#main-top-container .fullscreen-region .heading .block-title-inner h3 {
+  font-size: 50px !important;
+  font-weight: 200 !important;
+}
+
+/*** SEARCH PAGE - icon color */
+/* line 382, ../sass/levi.sass */
+.site-search-form.input-group > .input-group-btn > .btn.btn-primary.btn-submit.search-submit {
+  border-color: #CCC !important;
+  background-color: #fff !important;
+}
+/* line 385, ../sass/levi.sass */
+.site-search-form.input-group > .input-group-btn > .btn.btn-primary.btn-submit.search-submit:hover {
+  background-color: #FFC824 !important;
+}
+
+/*** OPINION PAGE */
+/*** ISSUE PAGE */
+/* line 410, ../sass/levi.sass */
+.section-issue .content-overlay {
+  display: none !important;
+}
+/* line 413, ../sass/levi.sass */
+.section-issue .card-img-sm .card .card-container > .card-image {
+  width: 33% !important;
+}
+/* line 415, ../sass/levi.sass */
+.section-issue .card-img-sm .card.has-image > .card-container > .card-body {
+  margin-left: 33% !important;
+}
+/* line 418, ../sass/levi.sass */
+.section-issue .mcw-mp .block-title {
+  background: #000 none repeat scroll 0% 0% !important;
+  border-top-right-radius: 7px !important;
+  margin: -5px 0 0 0 !important;
+}
+/* line 422, ../sass/levi.sass */
+.section-issue .mcw-mp.buzz .block-title, .section-issue .mcw-mp.opinion .block-title {
+  margin: 0 0 20px !important;
+}
+/* line 424, ../sass/levi.sass */
+.section-issue .mcw-mp .face-face .image > a > img.img-responsive {
+  vertical-align: top !important;
+}
+
+/*** CALENDAR PAGE  !!! custom-events-list !!! */
+/* line 430, ../sass/levi.sass */
+.section-calendar .custom-events-list .card.has-image > .card-container > .card-body {
+  padding-left: 0 !important;
+}
+/* line 432, ../sass/levi.sass */
+.section-calendar .custom-events-list .card-img-sm .card.has-image > .card-container > .card-body {
+  margin-left: 0 !important;
+}
+/* line 434, ../sass/levi.sass */
+.section-calendar .custom-events-list article.card.event {
+  border-bottom: 1px solid #DDD !important;
+}
+/* line 436, ../sass/levi.sass */
+.section-calendar .custom-events-list div.date-partition ~ .section-calendar .custom-events-list article.card.event {
+  border-bottom: none !important;
+}
+/* line 438, ../sass/levi.sass */
+.section-calendar .custom-events-list .card-container > .card-body > .card-date {
+  display: none !important;
+}
+
+/*** CUSTOM MOVIE HEAD
+ *
+ *h2.3-half {
+ *    padding-left: 150px;
+ *    background-image: url(https://bloximages.newyork1.vip.townnews.com/montereycountyweekly.com/content/tncms/assets/v3/editorial/8/df/8dfa1aa4-1391-11e5-ba4c-d7bb7bf6ed87/557f223155aec.image.png);
+ *    backgound-position: left middle;
+ *    background-repeat: none;
+ *} */
+/******* END Levi Stuff */
+@media screen and (max-device-width: 480px) {
+  /* line 6, ../sass/kevin.sass */
+  .asset.article-default {
+    -webkit-text-size-adjust: 125% !important;
+  }
+}
+/* homepage mobile */
+@media screen and (max-width: 767px) {
+  /* line 12, ../sass/kevin.sass */
+  .is-homepage #main-page-container {
+    padding-top: 42px !important;
+  }
+  /* line 14, ../sass/kevin.sass */
+  .is-homepage .card-compact .card.has-image > .card-container > .card-image {
+    width: 105px !important;
+  }
+  /* line 16, ../sass/kevin.sass */
+  .is-homepage .list-inline li.text-muted {
+    display: none !important;
+  }
+  /* line 18, ../sass/kevin.sass */
+  .is-homepage #grid-secondary .col-md-5.col-lg-4 {
+    background-color: #eee !important;
+    padding-top: 15px !important;
+    padding-bottom: 25px !important;
+    margin-bottom: 1em !important;
+  }
+}
+
+/*** static-page ** */
+/* line 25, ../sass/kevin.sass */
+.staticpage-default {
+  font-size: 16px !important;
+}
+/* line 27, ../sass/kevin.sass */
+.staticpage-default a {
+  color: #4981CE !important;
+}
+
+/* contact us page */
+/*.uuid-f1665072-17c6-11e2-8ed1-0012793a74ab
+ * dl
+ *   padding-left: 2em
+ *   margin-left: 1em
+ *   border-left: 1px solid
+ * dt:before
+ *   content: '-'
+ *   position: absolute
+ *   margin-left: -2.05em */
+/* line 42, ../sass/kevin.sass */
+.uuid-f1665072-17c6-11e2-8ed1-0012793a74ab a {
+  color: #4981CE !important;
+}
+
+/*** marketing page ** */
+/* line 48, ../sass/kevin.sass */
+.section-marketing a {
+  color: #4981CE !important;
+}
+/* line 50, ../sass/kevin.sass */
+.section-marketing a:hover {
+  text-decoration: underline !important;
+}
+/* line 53, ../sass/kevin.sass */
+.section-marketing div.full-asset:nth-child(n+2) {
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid #ccc !important;
+  padding: 1em !important;
+}
+/* line 57, ../sass/kevin.sass */
+.section-marketing div.full-asset img {
+  max-width: 100% !important;
+}
+/* line 59, ../sass/kevin.sass */
+.section-marketing .meta {
+  display: none !important;
+}
+/* line 61, ../sass/kevin.sass */
+.section-marketing .heading .block-title {
+  width: 100% !important;
+}
+/* line 63, ../sass/kevin.sass */
+.section-marketing .caption-headline {
+  display: none !important;
+}
+/* line 65, ../sass/kevin.sass */
+.section-marketing #sidebar {
+  max-width: 100% !important;
+}
+/* line 68, ../sass/kevin.sass */
+.section-marketing #tncms-region-index-full h1 {
+  margin-bottom: 1em !important;
+}
+/* line 70, ../sass/kevin.sass */
+.section-marketing #tncms-region-index-full ul {
+  width: 100% !important;
+  margin-bottom: 20px !important;
+  overflow: hidden !important;
+  padding-left: 0px !important;
+}
+/* line 75, ../sass/kevin.sass */
+.section-marketing #tncms-region-index-full li {
+  line-height: 1.5em !important;
+  border-bottom: 1px solid #ccc !important;
+  float: left !important;
+  display: inline !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+/* line 82, ../sass/kevin.sass */
+.section-marketing #tncms-region-index-full #double li {
+  width: 50% !important;
+}
+/* line 84, ../sass/kevin.sass */
+.section-marketing #tncms-region-index-full #triple li {
+  width: 33.333% !important;
+}
+/* line 86, ../sass/kevin.sass */
+.section-marketing #tncms-region-index-full #quad li {
+  width: 25% !important;
+}
+/* line 88, ../sass/kevin.sass */
+.section-marketing #tncms-region-index-full #six li {
+  width: 16.666% !important;
+}
+
+/*** best of ** */
+/* line 94, ../sass/kevin.sass */
+.section-best #tncms-region-index-full a {
+  color: #4981CE !important;
+}
+/* line 96, ../sass/kevin.sass */
+.section-best #tncms-region-index-full a:hover {
+  text-decoration: underline !important;
+}
+/* line 98, ../sass/kevin.sass */
+.section-best #tncms-region-index-full .blue-links a {
+  color: #4981CE !important;
+  font-size: 16px !important;
+  line-height: 27px !important;
+  font-weight: bold !important;
+}
+/* line 103, ../sass/kevin.sass */
+.section-best #tncms-region-index-full h4 {
+  margin-bottom: 0px !important;
+}
+/* line 104, ../sass/kevin.sass */
+.section-best #tncms-region-index-full h4 a {
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+/* line 108, ../sass/kevin.sass */
+.section-best #tncms-region-index-full .card {
+  margin-bottom: 5px !important;
+  margin-left: 1em !important;
+}
+/* line 111, ../sass/kevin.sass */
+.section-best #tncms-region-index-full h3 {
+  padding-left: 0 !important;
+}
+/* line 113, ../sass/kevin.sass */
+.section-best #tncms-region-index-full .heading.card {
+  margin-left: 0px !important;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 117, ../sass/kevin.sass */
+  .section-best #main-page-container .block {
+    margin-bottom: 20px !important;
+  }
+}
+/*** /entertainment/movies */
+/* line 122, ../sass/kevin.sass */
+.mcw-movietimes .asset .asset-header h1 {
+  font-size: 24px !important;
+}
+
+/* line 126, ../sass/kevin.sass */
+.section-movies .mcw-movietimes .asset .asset-body p {
+  line-height: 0px !important;
+}
+/* line 128, ../sass/kevin.sass */
+.section-movies .asset-masthead {
+  margin-bottom: 0px !important;
+  padding: 0px !important;
+}
+/* line 131, ../sass/kevin.sass */
+.section-movies .main-content .full-asset ul li a {
+  display: block !important;
+  font-weight: bold !important;
+  color: #4981CE !important;
+}
+/* line 135, ../sass/kevin.sass */
+.section-movies .owl-wrapper-outer {
+  height: 495px !important;
+}
+/* line 137, ../sass/kevin.sass */
+.section-movies .parent-articles {
+  display: none !important;
+}
+
+/* line 140, ../sass/kevin.sass */
+.section-events .owl-wrapper-outer {
+  height: 495px !important;
+}
+
+/* line 143, ../sass/kevin.sass */
+#bigtext-id0 .bigtext-line0, #bigtext-id1 .bigtext-line0 {
+  font-size: 36px !important;
+}
+
+/* line 147, ../sass/kevin.sass */
+.section-movies #tncms-region-index-full-bottom ul {
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-bottom: 1em !important;
+  border-bottom: 1px solid #aaa !important;
+  margin-bottom: 2em !important;
+}
+/* line 154, ../sass/kevin.sass */
+.section-movies #tncms-region-index-full-bottom li {
+  font-size: 15px !important;
+  line-height: 1.5em !important;
+  border-bottom: 1px solid #ccc !important;
+  padding-top: 1em !important;
+}
+/* line 160, ../sass/kevin.sass */
+.section-movies #tncms-region-index-full-bottom li:last-child {
+  border: none !important;
+}
+/* line 162, ../sass/kevin.sass */
+.section-movies #tncms-region-index-full-bottom li a {
+  display: block !important;
+  width: 100% !important;
+}
+/* line 165, ../sass/kevin.sass */
+.section-movies .list-inline li {
+  font-size: 20px !important;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 169, ../sass/kevin.sass */
+  .section-movies #main-page-container .block {
+    margin-bottom: 20px !important;
+  }
+}
+/* line 172, ../sass/kevin.sass */
+.section-marketing .card .card-image .photo.layout-vertical {
+  background: white !important;
+  background: -moz-radial-gradient(center, ellipse cover, white 0%, #f6f6f6 58%, #ededed 100%) !important;
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, white), color-stop(58%, #f6f6f6), color-stop(100%, #ededed)) !important;
+  background: -webkit-radial-gradient(center, ellipse cover, white 0%, #f6f6f6 58%, #ededed 100%) !important;
+  background: -o-radial-gradient(center, ellipse cover, white 0%, #f6f6f6 58%, #ededed 100%) !important;
+  background: -ms-radial-gradient(center, ellipse cover, white 0%, #f6f6f6 58%, #ededed 100%) !important;
+  background: radial-gradient(ellipse at center, #ffffff 0%, #f6f6f6 58%, #ededed 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 ) !important;
+}
+
+/*** marketplace fix ** */
+@media screen and (max-width: 767px) {
+  /* line 186, ../sass/kevin.sass */
+  h6.business-tagline.tagline-default {
+    margin-top: 0px !important;
+  }
+}
+/* line 188, ../sass/kevin.sass */
+.business-tags {
+  display: none !important;
+}
+
+/*** most popular ** */
+/* line 194, ../sass/kevin.sass */
+ul.nav-tabs-popular {
+  display: none !important;
+}
+
+/* line 198, ../sass/kevin.sass */
+.most-popular .tab-content {
+  border: 0px !important;
+  padding: 0px !important;
+  font-size: 14px !important;
+}
+/* line 202, ../sass/kevin.sass */
+.most-popular .tab-content-list.border li {
+  border-bottom-style: dotted !important;
+}
+
+/*** Today's Events ** */
+/* line 208, ../sass/kevin.sass */
+.todays-events .card-headline h4 a {
+  font-size: 22px !important;
+  line-height: 24px !important;
+}
+
+/* obits */
+/* line 214, ../sass/kevin.sass */
+.section-forms.section-obituary #obituary_and_funeral_arrangements {
+  height: 544px !important;
+}
+
+/* line 217, ../sass/kevin.sass */
+.section-obituaries.section-assets .box {
+  background-color: #eee !important;
+  padding: 2em !important;
+  max-width: 560px !important;
+}
+
+/* line 223, ../sass/kevin.sass */
+.section-obituaries .card-headline h3 a {
+  color: #eeeeee !important;
+}
+/* line 225, ../sass/kevin.sass */
+.section-obituaries figure.photo > .image > a > img {
+  border: none !important;
+}
+
+/* arcticle page */
+/* line 233, ../sass/kevin.sass */
+.type-article .media-body .btn {
+  background-color: #D80031 !important;
+  border-color: #A94442 !important;
+}
+/* line 236, ../sass/kevin.sass */
+.type-article .media-body .fa-circle {
+  color: #D80031 !important;
+}
+
+/*** full article ** */
+/* line 241, ../sass/kevin.sass */
+.full-asset .tn-index-story {
+  border-bottom: 1px solid #EEEEEE !important;
+  margin-bottom: 2em !important;
+  padding-bottom: 1em !important;
+}
+
+/* line 246, ../sass/kevin.sass 
+.section-the-buzz .asset-masthead {
+  display: none !important;
+}
+removed 1-11-18 ks
+*/
+
+/*** etc photo ** */
+/* line 251, ../sass/kevin.sass */
+.section-etc-photo-gallery .section .owl-carousel .owl-item, .section-tom-tomorrow .owl-carousel .owl-item {
+  min-height: 540px !important;
+}
+
+/*** cartoons ** */
+/* line 257, ../sass/kevin.sass */
+.section-cartoons .card-headline {
+  display: none !important;
+}
+
+/* line 261, ../sass/kevin.sass */
+.cartoons .caption-container {
+  display: none !important;
+}
+
+/* line 265, ../sass/kevin.sass */
+.topfive .list-popular > li:before {
+  border-radius: 50% !important;
+  background-color: #333 !important;
+}
+
+/*** face to face ** */
+/* line 272, ../sass/kevin.sass */
+.section-face-to-face .item-container .photo-container {
+  display: block !important;
+  background-color: transparent !important;
+}
+
+/* line 277, ../sass/kevin.sass */
+#tncms-region-nav-mobile-nav-left {
+  display: none !important;
+}
+
+/* line 279, ../sass/kevin.sass */
+#tncms-region-nav-mobile-nav-left-below {
+  display: none !important;
+}
+
+/* line 284, ../sass/kevin.sass */
+#tncms-region-nav-mobile-sidebar-nav .panel a {
+  color: white !important;
+}
+
+/* line 287, ../sass/kevin.sass */
+#tncms-region-nav-mobile-nav-right-below a {
+  color: white !important;
+}
+
+/* line 290, ../sass/kevin.sass */
+.navbar-brand {
+  padding: 0px !important;
+}
+
+/* line 292, ../sass/kevin.sass */
+.navbar-toggle.pull-left {
+  margin-right: 15px !important;
+}
+
+/* line 294, ../sass/kevin.sass */
+.navbar-toggle.pull-left .icon-bar {
+  background-color: #FFC824 !important;
+  animation: border-pulsate 2s infinite !important;
+}
+
+/* line 299, ../sass/kevin.sass */
+#tncms-region-mobile-nav-top-right-region .btn {
+  background-color: #D80031 !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}
+
+/* line 302, ../sass/kevin.sass */
+.hamburger-menu-instructions {
+  background-color: #FFC824 !important;
+  padding: 1em !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}
+
+@keyframes border-pulsate {
+  0% {
+    background-color: #ffc824 !important;
+  }
+  50% {
+    background-color: rgba(255, 200, 36, 0.75) !important;
+  }
+  100% {
+    background-color: #ffc824 !important;
+  }
+}
+/* line 316, ../sass/kevin.sass */
+.type-article #sidebar-col {
+  float: left !important;
+}
+
+/* clubgrid */
+/* line 321, ../sass/kevin.sass */
+.section-clubgrid .tg_row {
+  background-color: transparent !important;
+  color: #D02424 !important;
+  border: 1px solid #ccc !important;
+}
+
+/* line 326, ../sass/kevin.sass */
+.section-clubgrid .tg_Venue {
+  border: none !important;
+  color: #111 !important;
+}
+
+/* line 330, ../sass/kevin.sass */
+.section-clubgrid .tg_1 {
+  border-left-color: #D80031 !important;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 333, ../sass/kevin.sass */
+  .tg_Thursday, .tg_Friday, .tg_Saturday, .tg_Sunday, .tg_Monday, .tg_Tuesday, .tg_Wednesday {
+    width: 47% !important;
+  }
+}
+
+/* line 338, ../sass/kevin.sass */
+div.btn .jquery-block-btn {
+  color: white !important;
+}
+
+/* line 341, ../sass/kevin.sass */
+.btn a, a.btn, .btn-default {
+  color: white !important;
+}
+
+/* line 344, ../sass/kevin.sass */
+.btn {
+  background-color: #111 !important;
+  border-color: black !important;
+}
+
+/* line 348, ../sass/kevin.sass */
+.tncms-block.btn.btn-primary {
+  margin-bottom: 2em !important;
+  margin-right: 1em !important;
+}
+
+/*** sitewide ** */
+/* line 354, ../sass/kevin.sass */
+.main-content img {
+  -webkit-border-radius: 2px !important;
+  -moz-border-radius: 2px !important;
+  border-radius: 2px !important;
+}
+
+/* line 360, ../sass/kevin.sass */
+.most-popular div div li:nth-child(n+6) {
+  display: none !important;
+}
+
+/* line 365, ../sass/kevin.sass */
+.card-headline h3 a {
+  color: #454545 !important;
+  font-weight: normal !important;
+}
+/* line 368, ../sass/kevin.sass */
+.card-headline h3 a:hover {
+  color: #000 !important;
+  text-decoration: underline !important;
+}
+
+/* line 372, ../sass/kevin.sass */
+.photo-carousel .photo-carousel-control {
+  opacity: 100 !important;
+}
+
+/* line 375, ../sass/kevin.sass */
+.asset-date {
+  color: #D80031 !important;
+}
+
+/* line 379, ../sass/kevin.sass */
+div.asset-tags ul.list-inline li a {
+  color: white !important;
+}
+
+/* line 382, ../sass/kevin.sass */
+div.block-title, .user-header {
+  border-bottom: 3px solid #D80031 !important;
+}
+
+/** events */
+/* line 386, ../sass/kevin.sass */
+.event-date-container {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #ccc !important;
+}
+
+/* line 390, ../sass/kevin.sass */
+#bigtext-id0 .bigtext-line0 {
+  font-size: 36px !important;
+}
+
+/* line 393, ../sass/kevin.sass */
+.section-events .date-partition {
+  display: none !important;
+}
+
+/* breaking news spinner */
+/* line 397, ../sass/kevin.sass */
+.breaking {
+  margin-top: 30px !important;
+  max-width: 1170px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: none\9  !important;
+}
+/* line 404, ../sass/kevin.sass 
+.breaking a, .breaking .asset-date {
+  color: #eeeeee !important;
+}*/
+/* line 406, ../sass/kevin.sass */
+.breaking .asset-date {
+  color: #111 !important;
+}
+
+/* line 408, ../sass/kevin.sass */
+.breaking.row {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 1132px !important;
+  margin-top: 28px !important;
+}
+/* line 413, ../sass/kevin.sass */
+.breaking.row .card-headline a {
+  color: white !important;
+}
+
+/* search forms */
+/* line 417, ../sass/kevin.sass */
+#search-form .btn-submit {
+  background-color: #D80031 !important;
+}
+
+/* site search */
+/* line 421, ../sass/kevin.sass */
+#tncms-region-main-nav-right-region a span.fa {
+  color: #D80031 !important;
+}
+
+/* facebook linked in letters */
+/* line 425, ../sass/kevin.sass */
+.section-letters cite a {
+  color: #4981CE !important;
+}
+
+/* site footer */
+/* line 429, ../sass/kevin.sass */
+#site-footer a {
+  color: white !important;
+}
+
+/* line 432, ../sass/kevin.sass */
+.footer-logo div > a > img {
+  width: 50% !important;
+}
+
+/* line 435, ../sass/kevin.sass */
+#tncms-region-footer-copyright {
+  padding-left: 1.5em !important;
+  padding-right: 1.5em !important;
+}
+
+/* line 440, ../sass/kevin.sass */
+blockquote.sub-headline {
+  color: #313131 !important;
+}
+
+/* classifieds */
+/* line 444, ../sass/kevin.sass */
+.section-classifieds {
+  /* opinion */
+}
+/* line 445, ../sass/kevin.sass */
+.section-classifieds .mcw-submit-ad .block-title-inner h3 a {
+  color: #eeeeee !important;
+}
+/* line 447, ../sass/kevin.sass */
+.section-classifieds a {
+  color: #4981CE !important;
+}
+/* line 449, ../sass/kevin.sass */
+.section-classifieds li.active a {
+  background-color: #D80031 !important;
+  color: #eeeeee !important;
+}
+
+/* line 455, ../sass/kevin.sass */
+.section-opinion .caption-container {
+  display: none !important;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 457, ../sass/kevin.sass */
+  .section-opinion .cartoons .photo-carousel {
+    height: 355px !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 457, ../sass/kevin.sass */
+  .section-opinion .cartoons .photo-carousel {
+    height: 460px !important;
+  }
+}
+
+/* line 466, ../sass/kevin.sass */
+.uuid-142b974e-a00a-11e3-8281-001a4bcf6878 #staticpage-content p a {
+  color: #4981CE !important;
+}
+
+/* line 471, ../sass/kevin.sass */
+.uuid-c0cb238e-3845-11e3-a524-001a4bcf6878 h3, .uuid-600de5d8-1a17-11e2-9f52-001a4bcf6878 h3 {
+  color: #111 !important;
+}
+/* line 473, ../sass/kevin.sass */
+.uuid-c0cb238e-3845-11e3-a524-001a4bcf6878 a, .uuid-600de5d8-1a17-11e2-9f52-001a4bcf6878 a {
+  color: #4981CE !important;
+}
+
+/*** Pressclub stuff *** */
+/* line 3, ../sass/pressclub.sass */
+.section-pressclub {
+  background: #fbfbf3 url(https://bloximages.newyork1.vip.townnews.com/montereycountyweekly.com/content/tncms/assets/v3/editorial/c/f0/cf0f54aa-9c40-11e4-a9ed-4b5efa7e0e7b/54b6f4815b5a8.image.jpg) no-repeat center center fixed !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  font-family: Arial !important;
+}
+/* line 4, ../sass/pressclub.sass */
+.section-pressclub #site-top-nav-container, .section-pressclub #site-header-container, .section-pressclub #site-footer {
+  display: none !important;
+}
+/* line 11, ../sass/pressclub.sass */
+.section-pressclub .blox-asset-content-block.event h4 {
+  margin-left: 85px !important;
+  margin-top: 1em !important;
+}
+/* line 14, ../sass/pressclub.sass */
+.section-pressclub .no-float .blox-recent-list li .avatar {
+  float: right !important;
+  width: 200px !important;
+}
+/* line 17, ../sass/pressclub.sass */
+.section-pressclub p, .section-pressclub div {
+  font-family: "Roboto Condensed" !important;
+}
+/* line 19, ../sass/pressclub.sass */
+.section-pressclub #blox-story h1 .blox-headline {
+  font-family: "Roboto Condensed", sans-serif !important;
+  color: #222 !important;
+  font-size: 36px !important;
+  line-height: 48px !important;
+  font-family: "Roboto Condensed" !important;
+}
+/* line 25, ../sass/pressclub.sass */
+.section-pressclub * {
+  font-family: "Roboto Condensed" !important;
+  line-height: 1.125em !important;
+}
+/* line 28, ../sass/pressclub.sass */
+.section-pressclub .blox-asset-content-block.event h4 a {
+  line-height: 26px !important;
+}
+/* line 30, ../sass/pressclub.sass */
+.section-pressclub #blox-container {
+  padding: 0 1em !important;
+}
+/* line 33, ../sass/pressclub.sass */
+.section-pressclub.app-calendar .heading-cal {
+  background-color: #73E416 !important;
+  display: none !important;
+}
+/* line 36, ../sass/pressclub.sass */
+.section-pressclub.app-calendar #sidebar .highlight-box, .section-pressclub.app-calendar .venue-item, .section-pressclub.app-calendar .website-link a {
+  display: none !important;
+}
+/* line 38, ../sass/pressclub.sass */
+.section-pressclub .pressNav {
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+/* line 41, ../sass/pressclub.sass */
+.section-pressclub .details {
+  padding-top: 0.3em !important;
+  padding-left: 1em !important;
+  font-family: "Roboto Condensed" !important;
+}
+/* line 45, ../sass/pressclub.sass */
+.section-pressclub .hours {
+  padding-top: 0.3em !important;
+  padding-right: 1em !important;
+  float: right !important;
+  font-family: "Roboto Condensed" !important;
+}
+/* line 50, ../sass/pressclub.sass */
+.section-pressclub .underNav {
+  font-family: "Roboto Condensed" !important;
+}
+/* line 52, ../sass/pressclub.sass */
+.section-pressclub .navbar-header {
+  float: left !important;
+}
+/* line 54, ../sass/pressclub.sass */
+.section-pressclub .hamburger-desktop {
+  display: none !important;
+}
+/* line 56, ../sass/pressclub.sass */
+.section-pressclub .fa-stack i.fa {
+  font-family: FontAwesome !important;
+}
+/* line 59, ../sass/pressclub.sass */
+.section-pressclub #navbar-collapse .pull-right {
+  width: 100% !important;
+}
+/* line 62, ../sass/pressclub.sass */
+.section-pressclub .card.event-list .event-list-item .event-date-container {
+  margin: 0px 20px !important;
+}
+
+/**** end pressclub *** */
+/* line 2, ../sass/archives.sass */
+.section-archives .col-md-4 .card-container {
+  height: 175px !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-1988 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-1988 .weekly-covers-index .card-headline, .section-1988 .weekly-covers-index .card-lead, .section-1988 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-1989 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-1989 .weekly-covers-index .card-headline, .section-1989 .weekly-covers-index .card-lead, .section-1989 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-1990 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-1990 .weekly-covers-index .card-headline, .section-1990 .weekly-covers-index .card-lead, .section-1990 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-1991 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-1991 .weekly-covers-index .card-headline, .section-1991 .weekly-covers-index .card-lead, .section-1991 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-1992 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-1992 .weekly-covers-index .card-headline, .section-1992 .weekly-covers-index .card-lead, .section-1992 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-1993 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-1993 .weekly-covers-index .card-headline, .section-1993 .weekly-covers-index .card-lead, .section-1993 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-1994 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-1994 .weekly-covers-index .card-headline, .section-1994 .weekly-covers-index .card-lead, .section-1994 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-1995 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-1995 .weekly-covers-index .card-headline, .section-1995 .weekly-covers-index .card-lead, .section-1995 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-1996 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-1996 .weekly-covers-index .card-headline, .section-1996 .weekly-covers-index .card-lead, .section-1996 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-1997 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-1997 .weekly-covers-index .card-headline, .section-1997 .weekly-covers-index .card-lead, .section-1997 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-1998 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-1998 .weekly-covers-index .card-headline, .section-1998 .weekly-covers-index .card-lead, .section-1998 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-1999 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-1999 .weekly-covers-index .card-headline, .section-1999 .weekly-covers-index .card-lead, .section-1999 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2000 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2000 .weekly-covers-index .card-headline, .section-2000 .weekly-covers-index .card-lead, .section-2000 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2001 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2001 .weekly-covers-index .card-headline, .section-2001 .weekly-covers-index .card-lead, .section-2001 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2002 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2002 .weekly-covers-index .card-headline, .section-2002 .weekly-covers-index .card-lead, .section-2002 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2003 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2003 .weekly-covers-index .card-headline, .section-2003 .weekly-covers-index .card-lead, .section-2003 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2004 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2004 .weekly-covers-index .card-headline, .section-2004 .weekly-covers-index .card-lead, .section-2004 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2005 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2005 .weekly-covers-index .card-headline, .section-2005 .weekly-covers-index .card-lead, .section-2005 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2006 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2006 .weekly-covers-index .card-headline, .section-2006 .weekly-covers-index .card-lead, .section-2006 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2007 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2007 .weekly-covers-index .card-headline, .section-2007 .weekly-covers-index .card-lead, .section-2007 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2008 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2008 .weekly-covers-index .card-headline, .section-2008 .weekly-covers-index .card-lead, .section-2008 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2009 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2009 .weekly-covers-index .card-headline, .section-2009 .weekly-covers-index .card-lead, .section-2009 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2010 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2010 .weekly-covers-index .card-headline, .section-2010 .weekly-covers-index .card-lead, .section-2010 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2011 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2011 .weekly-covers-index .card-headline, .section-2011 .weekly-covers-index .card-lead, .section-2011 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2012 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2012 .weekly-covers-index .card-headline, .section-2012 .weekly-covers-index .card-lead, .section-2012 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2013 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2013 .weekly-covers-index .card-headline, .section-2013 .weekly-covers-index .card-lead, .section-2013 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2014 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2014 .weekly-covers-index .card-headline, .section-2014 .weekly-covers-index .card-lead, .section-2014 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2015 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2015 .weekly-covers-index .card-headline, .section-2015 .weekly-covers-index .card-lead, .section-2015 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2016 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2016 .weekly-covers-index .card-headline, .section-2016 .weekly-covers-index .card-lead, .section-2016 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2017 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2017 .weekly-covers-index .card-headline, .section-2017 .weekly-covers-index .card-lead, .section-2017 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2018 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2018 .weekly-covers-index .card-headline, .section-2018 .weekly-covers-index .card-lead, .section-2018 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2019 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2019 .weekly-covers-index .card-headline, .section-2019 .weekly-covers-index .card-lead, .section-2019 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2020 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2020 .weekly-covers-index .card-headline, .section-2020 .weekly-covers-index .card-lead, .section-2020 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2021 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2021 .weekly-covers-index .card-headline, .section-2021 .weekly-covers-index .card-lead, .section-2021 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2022 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2022 .weekly-covers-index .card-headline, .section-2022 .weekly-covers-index .card-lead, .section-2022 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2023 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2023 .weekly-covers-index .card-headline, .section-2023 .weekly-covers-index .card-lead, .section-2023 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2024 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2024 .weekly-covers-index .card-headline, .section-2024 .weekly-covers-index .card-lead, .section-2024 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2025 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2025 .weekly-covers-index .card-headline, .section-2025 .weekly-covers-index .card-lead, .section-2025 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2026 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2026 .weekly-covers-index .card-headline, .section-2026 .weekly-covers-index .card-lead, .section-2026 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2027 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2027 .weekly-covers-index .card-headline, .section-2027 .weekly-covers-index .card-lead, .section-2027 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2028 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2028 .weekly-covers-index .card-headline, .section-2028 .weekly-covers-index .card-lead, .section-2028 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 9, ../sass/archives.sass */
+.section-2029 .weekly-covers-index .card-body {
+  display: block !important;
+}
+/* line 11, ../sass/archives.sass */
+.section-2029 .weekly-covers-index .card-headline, .section-2029 .weekly-covers-index .card-lead, .section-2029 .weekly-covers-index .card-meta li.text-muted {
+  display: none !important;
+}
+
+/* line 10, ../sass/updates.sass */
+body:last-child #main-nav_menu > li:first-child > a {
+  width: 170px !important;
+  height: 80px !important;
+  -webkit-animation: logoswap 15s infinite running !important;
+  -moz-animation: logoswap 15s infinite running !important;
+  -ms-animation: logoswap 15s infinite running !important;
+  -o-animation: logoswap 15s infinite running !important;
+  background-image: url(https://bloximages.newyork1.vip.townnews.com/montereycountyweekly.com/content/tncms/assets/v3/editorial/6/5b/65bac51a-7c1a-11e5-a65b-078cfc4fa089/562e83543ae88.image.png) !important;
+  background-size: 170px 80px !important;
+  display: block !important;
+  -webkit-opacity: inherit !important;
+  -moz-opacity: inherit !important;
+  -ms-opacity: inherit !important;
+  -o-opacity: inherit !important;
+  color: #FFFFFF !important;
+}
+
+@keyframes logoswap {
+  0%, 100% {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -ms-opacity: 0;
+    -o-opacity: 0;
+    color: transparent !important;
+  }
+  40% {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -ms-opacity: 0;
+    -o-opacity: 0;
+    color: transparent !important;
+  }
+  45%, 95% {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -ms-opacity: 1;
+    -o-opacity: 1;
+    color: #BABABA !important;
+  }
+}
+/* line 46, ../sass/updates.sass */
+.section-movies #tncms-region-index-full-bottom li {
+  font-size: 15px !important;
+  line-height: 1.5em !important;
+  border-bottom: 1px solid #ccc !important;
+  padding-top: 1em !important;
+}
+
+/* line 58, ../sass/updates.sass */
+.type-article .asset-body p a {
+  color: #4981CE !important;
+  text-decoration: none !important;
+}
+/* line 61, ../sass/updates.sass */
+.type-article .asset-body p a:hover {
+  text-decoration: underline !important;
+}
+/* line 64, ../sass/updates.sass */
+.type-article .asset-body li {
+  margin-bottom: 1em !important;
+}
+
+/* line 68, ../sass/updates.sass */
+.section-news #collapseListGroup1-grid-sidebar .list-group-item {
+  text-transform: capitalize !important;
+}
+
+/* line 72, ../sass/updates.sass */
+.banner-clubgrid div img {
+  width: 100% !important;
+}
+
+/* line 76, ../sass/updates.sass */
+.article-default h3 {
+  margin-top: 2em !important;
+}
+
+/* line 80, ../sass/updates.sass */
+.asset-tags {
+  height: 50px !important;
+  overflow: hidden !important;
+}
+
+/* line 85, ../sass/updates.sass */
+blockquote {
+  color: #111 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+  padding-top: 1em !important;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+}
+
+/* line 96, ../sass/updates.sass */
+.article-default h5 {
+  color: #555 !important;
+  line-height: 26px !important;
+}
+
+/* line 101, ../sass/updates.sass */
+.asset .asset-body ul {
+  color: #444;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 109, ../sass/updates.sass */
+  #main-nav-right-nav_menu-child.dropdown-menu {
+    margin-top: -55px !important;
+  }
+}
+/* line 114, ../sass/updates.sass */
+.breaking .card {
+  margin-bottom: 0px !important;
+}
+/* line 116, ../sass/updates.sass */
+.breaking .breaking-item-content {
+  padding: 7px !important;
+}
+/* line 118, ../sass/updates.sass */
+.breaking .breaking-item-content a {
+  text-decoration: underline !important;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 122, ../sass/updates.sass */
+  .card .card-headline h1, .card .card-headline h2 {
+    font-size: 18px !important;
+    line-height: 32px !important;
+  }
+}
+/* line 128, ../sass/updates.sass */
+.section-eedition .card .card-image .photo.layout-vertical img, .section-eedition .card-img-sm .card.squery-xlg .card-image .photo.layout-vertical img.img-responsive.letterbox {
+  height: auto !important;
+  max-height: 200px !important;
+  width: auto !important;
+  margin: 0 auto !important;
+}
+
+/* line 136, ../sass/updates.sass */
+.section-pressclub .card-image .asset-icon {
+  display: none !important;
+}
+/* line 138, ../sass/updates.sass */
+.section-pressclub .fa, .section-pressclub .fa-stack i.fa {
+  font-family: FontAwesome !important;
+}
+
+/* line 141, ../sass/updates.sass */
+.section-pressclub.section-calendar #navbar-collapse, .section-pressclub.section-calendar #sidebar-col, .section-pressclub.section-calendar .asset-comments, .section-pressclub.section-calendar #site-footer-container, .section-pressclub.section-calendar .asset-label-flags {
+  display: none !important;
+}
+
+/* line 145, ../sass/updates.sass */
+div#site-copyright-container {
+  background-color: #000 !important;
+}
+
+/* line 149, ../sass/updates.sass */
+.mobile-banner-top {
+  background-color: #eee !important;
+}
+
+@media screen and (min-width: 480px) {
+  /* line 154, ../sass/updates.sass */
+  .top-ad {
+    padding-top: 2em !important;
+  }
+}
+@media screen and (max-width: 479px) {
+  /* line 158, ../sass/updates.sass */
+  .top-ad {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Gives coloring for breaking news block
+#block-368916 .breaking, #block-368916 .breaking .container { 
+    background-color: #524191 !important ;
+} */
+
+/* add franklin gothic  2017-03-02 / remove 2017-06-28
+@font-face {
+    font-family: 'franklin_gothic_fsdemi';
+    src: url('https://www.montereycountyweekly.com/app/font/franklingothic-demi-webfont.eot');
+    src: url('https://www.montereycountyweekly.com/app/font/franklingothic-demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://www.montereycountyweekly.com/app/font/franklingothic-demi-webfont.woff2') format('woff2'),
+         url('https://www.montereycountyweekly.com/app/font/franklingothic-demi-webfont.woff') format('woff'),
+         url('https://www.montereycountyweekly.com/app/font/franklingothic-demi-webfont.ttf') format('truetype'),
+         url('https://www.montereycountyweekly.com/app/font/franklingothic-demi-webfont.svg#franklin_gothic_fsdemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#main-top-container .fullscreen-region .heading .block-title-inner h3 {
+  font-family: 'franklin_gothic_fsdemi', Arial, sans-serif !important;
+  font-weight: bold !important;
+  color: black !important;
+  
+}
+.asset .asset-header h1 {
+  font-family: 'franklin_gothic_fsdemi', Arial, sans-serif !important;
+  font-weight: bold !important;
+  color: black !important;
+}
+
+.block-title h3,.block-title h3 a {
+    font-family: 'franklin_gothic_fsdemi', Arial, sans-serif !important;
+    color: black !important;
+    font-weight: black;
+}
+ */
+
+/* remove home icon 2017-05-16 */
+.fa-home{
+ display: none !important;
+}
+
+a.nav-home svg {
+ display: none !important;
+}
+
+/* fix about us navbar color */
+#tncms-region-nav-main-nav-right-nav .dropdown-menu {
+  background-color:black !important;
+}
+
+.membership-appeal section  {
+    padding: 1em;
+    border-radius: 4px;
+    background-color: gold;
+}
+
+.membership-appeal h3 {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* clean up recommendations */
+.recommendations-container .card-image-top {
+margin-bottom: 0px !important}
+
+.recommendations-container h3 {
+font-size: 16px !important }
+
+.recommendations-container .article-default h3 {
+  margin-top: 2em !important;
+}*/
+
+
+/* 3-18-20 covid-19 add signup to navbar */
+#tncms-region-main-nav-right-region div.sign-up {
+background-color: red !important;
+height: 50px !important;
+position: relative !important;
+text-align: center;
+}
+
+#tncms-region-main-nav-right-region div.contribute {
+
+height: 50px !important;
+position: relative !important;
+text-align: center;
+}
+
+.sign-up a {
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  padding-left: 5px; padding-right: 5px;
+}
+
+.sign-up a {
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  padding-left: 5px; padding-right: 5px;
+}
+.contribute a {
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  padding-left: 5px; padding-right: 5px;
+}
+
+.contribute a {
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  padding-left: 5px; padding-right: 5px;
+}
+
+div#navbar-collapse div.pull-right {
+  width: 260px !important;
+}
+
+/* red contribute button */
+#tncms-block-886701 {
+    background-color: #E21A22
+}
+
+/* white featured box text */
+#breaking-content-606922 h2.tnt-headline a{
+    color: white !important;
+}
