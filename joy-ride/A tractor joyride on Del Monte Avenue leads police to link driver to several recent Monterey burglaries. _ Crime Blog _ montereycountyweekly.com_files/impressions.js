@@ -1,1 +1,0 @@
-TNCMS.AdManager.setImpressions('www.montereycountyweekly.com', {"daily":[],"total":[]});
