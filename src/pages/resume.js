@@ -172,6 +172,25 @@ export default () => (
         requests from truck drivers and insomniacs.
       </p>
     </ResumeItem>
+    <h2>Conference presentations</h2>
+    <ResumeItem time="May 4, 2021">
+      <h3>
+        Keynote, <a href="https://csvconf.com/speakers/">csv,conf</a>
+      </h3>
+      <p>
+        Delivered a keynote along with three other colleagues about our work at
+        the COVID Tracking Project.
+      </p>
+    </ResumeItem>
+    <ResumeItem time="March 3, 2021">
+      <h3>
+        Gatsby for Emergency Response: Lessons from The COVID Tracking Project
+      </h3>
+      <p>
+        How do you build a data-intense site for millions of users in less than
+        a month? Learn what Kevin did for The COVID Tracking Project.
+      </p>
+    </ResumeItem>
     <h2>Artist's CV</h2>
     <p>
       While I no longer do exhibits, I still practice printmaking,
