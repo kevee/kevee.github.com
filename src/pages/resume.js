@@ -37,16 +37,16 @@ export default () => (
       B.A. Social History, Cal State Monterey Bay
     </ResumeItem>
     <h2>Employment history</h2>
-    <ResumeItem time="2020 - Current">
+    <ResumeItem time="2020 - 2021">
       <h3>
         Website Lead —{' '}
         <a href="http://covidtracking.com/">The COVID Tracking Project</a>
       </h3>
       <p>
-        As the web team lead, I coordinate designers, developers, and data entry
-        specialists to produce the most accurate website tracking COVID-19 in
-        the United States. My team has 15-30 members at any time, within a
-        project of over 300 volunteers.
+        As the web team lead, I coordinated designers, developers, and data
+        entry specialists to produce the most accurate website tracking COVID-19
+        in the United States. My team had 15-30 members at any time, within a
+        project of over 900 volunteers.
       </p>
     </ResumeItem>
     <ResumeItem time="2007-2019">
