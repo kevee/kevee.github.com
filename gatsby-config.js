@@ -34,7 +34,6 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
-    'gatsby-source-slack-emoji',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
