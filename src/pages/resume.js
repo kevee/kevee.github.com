@@ -46,7 +46,15 @@ export default () => (
         As the web team lead, I coordinated designers, developers, and data
         entry specialists to produce the most accurate website tracking COVID-19
         in the United States. My team had 15-30 members at any time, within a
-        project of over 900 volunteers.
+        project of over 900 volunteers. We won a{' '}
+        <a href="https://sigmaawards.org/the-covid-tracking-project-at-the-atlantic/">
+          Sigma Award
+        </a>{' '}
+        and{' '}
+        <a href="https://journalism.nyu.edu/graduate/programs/american-journalism-online-masters/awards/2021-winners/">
+          American Journalism Online Award
+        </a>{' '}
+        for our reporting and visualizations.
       </p>
     </ResumeItem>
     <ResumeItem time="2007-2019">
