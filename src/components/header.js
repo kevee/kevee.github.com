@@ -15,10 +15,22 @@ const HeaderContainer = styled(Container)`
   }
 `
 
-const Navigation = styled('ul')`
+const PrintOnly = styled.div`
+  font-family: 'Public Sans thin';
+  margin: 0.5rem 0;
+  display: none;
+  @media print {
+    display: block;
+  }
+`
+
+const Navigation = styled.ul`
   list-style-type: none;
   margin: 0.5rem 0;
   font-family: 'Public Sans thin';
+  @media print {
+    display: none;
+  }
   li {
     margin: 0;
     padding-right: 1.5rem;
@@ -49,6 +61,7 @@ export default ({ isFront }) => (
           <Link to="/">Kevin Miller</Link>
         </Brand>
       )}
+      <PrintOnly>kevin@kevee.net</PrintOnly>
       <Navigation>
         <li>
           <Link to="/resume">Resume</Link>

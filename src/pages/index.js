@@ -24,7 +24,6 @@ const HomeList = styled('ul')`
   font-size: 1.1rem;
 `
 
-
 const IndexPage = ({ data }) => (
   <>
     <Helmet>
@@ -50,6 +49,13 @@ const IndexPage = ({ data }) => (
         Since 2019 I've been working on several passion projects. These include:
       </HomeParagraph>
       <HomeList>
+        <li>
+          Building a{' '}
+          <a href="https://salinasriver.org">
+            recreation guide to the Salinas River
+          </a>{' '}
+          .
+        </li>
         <li>
           Working as the website lead for the{' '}
           <a href="https://github.com/COVID19Tracking/website">
