@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="date">
+    <h3>{{ job.dates }}</h3>
+  </div>
+  <div class="content">
+    <h4>{{ job.title | markedInline | safe}}</h4>
+    {{job.description | marked | safe}}</div>
+</div>

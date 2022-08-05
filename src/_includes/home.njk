@@ -1,0 +1,20 @@
+---
+layout: layout.njk
+script: home-animation.js
+---
+
+<div class="flipbook">
+  <h1>Hello, I'm Kevin Miller</h1>
+  {% for frame in flipbook %}
+    <img src="/assets/images/animation/{{ frame }}" alt="" class="flipbook-frame {% if loop.index === 1 %}show{% endif %}" data-number="{{ loop.index }}" aria-hidden="true"/>
+  {% endfor %}
+  <button class="replay hidden">Replay</button>
+</div>
+
+<div class="sr-only">This page includes a flipbook animation of me sitting in a bathtub,
+          minding my own business, when a tentacle appears and drags me under
+          the water.</div>
+{% include 'header.njk' %}
+<main id="content">
+  {{ content | safe }}
+</main>

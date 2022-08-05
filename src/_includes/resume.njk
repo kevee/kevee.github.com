@@ -1,0 +1,28 @@
+---
+layout: layout.njk
+---
+{% include 'header.njk' %}
+<main class="container resume" id="content">
+  {{ content | safe }}
+  <h2>Education</h2>
+  {% for school in education %}
+    <div class="row">
+      <div class="date">
+        <h3>{{ school.dates }}</h3>
+      </div>
+      <div class="content">{{school.content}}</div>
+    </div>
+  {% endfor %}
+  <h2>Employment history</h2>
+  {% for job in work %}
+    {% include 'job.njk' %}
+  {% endfor %}
+  <h2>Public service</h2>
+  {% for job in publicService %}
+    {% include 'job.njk' %}
+  {% endfor %}
+  <h2>Conferences</h2>
+  {% for job in conferences %}
+    {% include 'job.njk' %}
+  {% endfor %}
+</main>

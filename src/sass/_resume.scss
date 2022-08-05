@@ -1,0 +1,28 @@
+.resume {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+  }
+  .date {
+    width: 100%;
+    @media screen and (min-width: $breakpoint) {
+      width: 25%;
+    }
+    h3 {
+      font-size: 1rem;
+      margin-top: 0;
+    }
+  }
+
+  .content {
+    width: 100%;
+    @media screen and (min-width: $breakpoint) {
+      width: 75%;
+    }
+    > h4 {
+      margin-top: 0;
+    }
+  }
+}

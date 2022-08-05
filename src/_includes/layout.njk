@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}"/>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+
+  </head>
+  <body>
+    <a href="#content" class="skip-content">Skip to content</a>
+    {{ content | safe }}
+    {% if script %}
+      <script src="/assets/{{ script }}"></script>
+    {% endif %}
+  </body>
+</html>

@@ -1,0 +1,45 @@
+html {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Public Sans', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial',
+    'sans-serif';
+  color: $body-color;
+  margin: 0;
+  padding: 0;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+a,
+a:visited {
+  color: #056dd4;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-family: 'Public Sans bold', 'Helvetica Neue', 'Segoe UI', 'Helvetica',
+      'Arial', 'sans-serif';
+  }
+}
+
+p.hero {
+  font-size: 72px;
+  margin: 2rem 0;
+  font-family: 'Public Sans black', 'Helvetica Neue', 'Segoe UI', 'Helvetica',
+    'Arial', 'sans-serif';
+}

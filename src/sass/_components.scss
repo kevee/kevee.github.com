@@ -1,0 +1,74 @@
+.container {
+  width: 100%;
+  margin: 0 1.5rem;
+  @media screen and (min-width: $breakpoint) {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+
+a.skip-content {
+  font-weight: bold;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+  word-wrap: normal;
+  font-family: 'Public Sans bold', 'Helvetica Neue', 'Segoe UI', 'Helvetica',
+    'Arial', 'sans-serif';
+  &:focus {
+    border: 2px solid $body-color;
+    clip: auto;
+    height: auto;
+    margin: auto;
+    overflow: visible;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+    width: auto;
+  }
+}
+
+header {
+  margin-bottom: 1.5rem;
+  .my-name {
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-family: 'Public Sans thin', 'Helvetica Neue', 'Segoe UI', 'Helvetica',
+      'Arial', 'sans-serif';
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+  a,
+  a:visited {
+    color: $body-color;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      &:first-child {
+        margin-right: 1.5rem;
+      }
+    }
+  }
+  > div {
+    width: 100%;
+    margin: 0 1.5rem;
+    @media screen and (min-width: $breakpoint) {
+      width: 750px;
+      margin: 0 auto;
+    }
+  }
+}
