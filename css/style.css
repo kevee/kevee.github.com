@@ -120,6 +120,18 @@ header > div {
   display: none;
 }
 
+.me-im.crossed {
+  text-decoration: line-through;
+}
+
+.me-i-was {
+  color: #af2424;
+  display: none;
+}
+.me-i-was.show {
+  display: inline;
+}
+
 @font-face {
   font-family: "Public Sans";
   src: url("/assets/webfonts/PublicSans-Light.woff2") format("woff2"), url("/assets/webfonts/PublicSans-Light.woff") format("woff"), url("/assets/webfonts/PublicSans-Light.ttf") format("truetype");
