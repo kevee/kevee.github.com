@@ -44,3 +44,17 @@
     }
   }
 }
+
+.me-im {
+  &.crossed {
+    text-decoration: line-through;
+  }
+}
+
+.me-i-was {
+  color: #af2424;
+  display: none;
+  &.show {
+    display: inline;
+  }
+}

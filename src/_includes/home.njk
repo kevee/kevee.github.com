@@ -4,7 +4,9 @@ script: home-animation.js
 ---
 
 <div class="flipbook">
-  <h1>Hello, I'm Kevin Miller</h1>
+  <h1>Hello, <span class="me-im">I'm</span>
+    <span class="me-i-was">I was</span>
+    <br/>Kevin Miller</h1>
   {% for frame in flipbook %}
     <img src="/assets/images/animation/{{ frame }}" alt="" class="flipbook-frame {% if loop.index === 1 %}show{% endif %}" data-number="{{ loop.index }}" aria-hidden="true"/>
   {% endfor %}
