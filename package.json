@@ -22,7 +22,7 @@
     "build:eleventy": "npx @11ty/eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "run-s build:sass build:eleventy",
-    "deploy:gh-pages": "gh-pages -d public --branch main",
+    "deploy:gh-pages": "gh-pages -d public",
     "deploy:cname": "echo \"kevee.net\" > ./public/CNAME",
     "deploy": "run-s build deploy:cname deploy:gh-pages"
   },

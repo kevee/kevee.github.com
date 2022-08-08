@@ -10,6 +10,7 @@ I am passionate about usability and accessibility. I believe we can and should h
 
 ## What I've been up to
 
+- Working as the Elections Product Engineer at [US Digital Response](https://www.usdigitalresponse.org/).
 - Building a [recreation guide to the Salinas River](https://salinasriver.org).
 - Wrapping my head around moon phases for [Neaps](https://neaps.js.org/), a tidal height predictor for Javascript.
 - Trying to maintain [listing of all public agencies and services](https://mocoloco.org) in Monterey County, California.
