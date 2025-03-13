@@ -6,9 +6,15 @@ education:
   - dates: 1998 — 2002
     content: B.A. Social History, Cal State Monterey Bay
 work:
+  - dates: 2022-present
+    title: Technical Lead  — Elections Team at [US Digital Response](http://usdigitalresponse.org/)
+    description: I manage a team of staff and volunteer engineers who build tools for jurisdictions around the country to run elections. We have made an entire infrastructure around using Airtable and other low-code tools along with traditional development best practices to ensure that these products are maintainable and scalable. With this platform, we have deployed four separate products to dozens of different jurisdictions.
+  - dates: 2021 — 2022
+    title: Archivist — [The COVID Tracking Project Archive](https://www.library.ucsf.edu/archives/covid-19-pandemic/the-covid-tracking-project-archive/) at UCSF
+    description: After the COVIID Tracking Project ended, we wrote a grant to archive the entire project, including internal document, public communications, and the data itself. I wrote custom tools for archiving internall tools like Slack and Github issues for future researchers after the archive comes out of embargo.
   - dates: 2020 — 2021
     title: Website Lead — [The COVID Tracking Project](https://covidtracking.com/)
-    description: As the web team lead, I coordinated designers, developers, and data entry specialists to produce the most accurate website tracking COVID-19 in the United States. My team had 15-30 members at any time, within a project of over 900 volunteers. We won a [Sigma Award](https://sigmaawards.org/the-covid-tracking-project-at-the-atlantic/)  and [American Journalism Online Award](https://journalism.nyu.edu/graduate/programs/american-journalism-online-masters/awards/2021-winners/)  for our reporting and visualizations.
+    description: As the web team lead, I coordinated designers, developers, and data entry specialists to produce the most accurate website tracking COVID-19 in the United States. My team had 15-30 members at any time, within a project of over 900 volunteers. We won a [Sigma Award](https://sigmaawards.org/the-covid-tracking-project-at-the-atlantic/)  and [American Journalism Online Award](https://journalism.nyu.edu/graduate/programs/american-journalism-online-masters/awards/2021-winners/) for our reporting and visualizations.
   - dates: 2007 — 2019
     title: Web Developer — [Cal State Monterey Bay](https://csumb.edu/)
     description: |
