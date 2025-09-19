@@ -58,8 +58,9 @@ header {
     padding: 0;
     li {
       display: inline-block;
-      &:first-child {
         margin-right: 1.5rem;
+      &:last-child {
+        margin-right: 0;
       }
     }
   }

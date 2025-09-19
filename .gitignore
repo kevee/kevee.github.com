@@ -2,3 +2,4 @@ node_modules
 old
 public
 _site
+.DS_Store
