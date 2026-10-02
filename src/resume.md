@@ -43,6 +43,38 @@ conferences:
   - dates: March 3, 2021
     title: Gatsby for Emergency Response- Lessons from The COVID Tracking Project
     description: How do you build a data-intense site for millions of users in less than a month? Learn what Kevin did for The COVID Tracking Project.
+artistCv:
+  - year: 2009
+    shows:
+      - '[Monterey Museum of Art](https://web.archive.org/web/20200921005033/http://www.montereyart.org/past-exhibitions/montereynow-kevin-miller-2/), Monterey, CA — Kevin Miller: MontereyNOW'
+  - year: 2008
+    shows:
+      - 'Emily Brown Studio, Monterey, CA — New Work, Group Show (April - June 2008)'
+      - 'Lisa Coscino Gallery, Pacific Grove, CA — FRED (April - May 2008)'
+      - "Sculpture Works, Sand City, CA — Octopi Collective's Untapped desires"
+  - year: 2007
+    shows:
+      - "Lauryn Taylor Fine Art, Carmel, CA — 'Holiday Lights Juried Show' (Nov. 24 - Dec. 24 2007)"
+      - 'Lisa Coscino Gallery, Pacific Grove, CA — $99.99 (Nov. 30 - Dec. 30, 2007)'
+      - "711 Cannery Row, Monterey, CA — 'Taste the Art, View the Wine' (Nov. 17 & 18, 2007)"
+      - "Lisa Coscino Gallery, Pacific Grove, CA — Solo Show 'Those Isles of Yours' (Oct. 26 - Novemberish, 2007)"
+      - 'Art Works!, Pacific Grove, CA — Papercutting Workshop Extravaganza (November 4th, 2007)'
+      - "CSU Monterey Bay - Día de los Muertos - 10' x 14' installation (November 1 - 4, 2007)"
+      - "Lisa Coscino Gallery, Pacific Grove, CA — 'Live Nudes' (Sept. 14th - Octoberish, 2007)"
+      - 'Lisa Coscino Gallery, Pacific Grove, CA — Postcards Show (July - Aug., 2007)'
+      - 'Outer Edge Gallery, Monterey, CA — Favorites Show (July 27 - Aug. 31, 2007)'
+      - "Colton Hall, Monterey, CA — Plein Air Award Winner's Exhibition (July, 207)"
+      - "Miriam's Café, Monterey, CA — Group Show (June-July, 2007)"
+      - "Art Works!, Pacific Grove, CA — 'April Showers Bring May Flowers... and Maybe a Junebug or Two' (June-July, 2007)"
+      - 'Projekt30.com Noir Show Juried Exhibition, Online (June-Aug., 2007)'
+      - 'Outer Edge Gallery, Monterey, CA — Poster Show (Dec. 2006 - Jan. 2007)'
+  - year: 2006
+    shows:
+      - "Lauryn Taylor Fine Art, Carmel, CA — 'Holiday Lights Miniature Show' (Dec. 2006)"
+      - "San Jose Museum of Art, San Jose, CA — 'Day of the Dead Altera' (Oct. - Nov. 2006)"
+      - "Monterey Museum of Art, Monterey, CA — 'Miniatures' (Oct. - Dec. 2006)"
+      - "Sweet Elena's Bakery & Cafe, Sand City, CA — 'Papercuts & Landscapes' (July - Sept. 2006)"
+      - "Lauryn Taylor Fine Art, Carmel, CA — 'Elementals Competition' (Feb. 2006)"
 ---
 
 # Resume

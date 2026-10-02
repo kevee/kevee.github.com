@@ -25,4 +25,20 @@ layout: layout.njk
   {% for job in conferences %}
     {% include 'job.njk' %}
   {% endfor %}
+  <h2>Artist's CV</h2>
+  <p>While I no longer do exhibits, here is a list of former shows.</p>
+  {% for exhibition in artistCv %}
+    <div class="row">
+      <div class="date">
+        <h3>{{ exhibition.year }}</h3>
+      </div>
+      <div class="content">
+        <ul>
+          {% for show in exhibition.shows %}
+            <li>{{ show | markedInline | safe }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  {% endfor %}
 </main>
